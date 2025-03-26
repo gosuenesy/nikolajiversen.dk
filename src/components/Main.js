@@ -52,7 +52,7 @@ export default function Main() {
             {/* <h1 className="text-xl text-gray-400">Hi, I'm</h1> */}
             <h1 className="text-3xl font-bold">Nikolaj Skovgaard Iversen</h1>
             <p class="text-xl font-bold text-gray-300">
-              Fullstack developer, professional gamer and coach
+              Fullstack Frontend developer, professional gamer and coach
               {/* , game developer */}
             </p>
             <p className="text-md font-light text-gray-400 ">
@@ -60,12 +60,10 @@ export default function Main() {
               user interfaces. I excel in translating design concepts into
               responsive web apps or mobile apps and creating user-friendly
               solutions. */}
-              Fullstack developer with a passion for creating frontend and
-              backend solutions. I am detail-oriented and focus on clean and
-              efficient code. I excel in translating design concepts into
-              responsive web apps or mobile apps and creating user-friendly
-              solutions, with experience in backend development and API
-              integration.
+              Fullstack frontend developer with a passion for creating visually
+              appealing user interfaces. I excel in translating design concepts
+              into responsive web apps or mobile apps and creating user-friendly
+              solutions and backend development with API.
               <br />
               <br />
               Professional gamer in various FPS games such as Quake and
@@ -76,8 +74,8 @@ export default function Main() {
                 className="hover:text-teal-400 text-md font-bold text-center"
               >
                 Liquipedia
-              </a>{" "}
-              page.
+              </a>
+              .
               <br />I have coached multiple people up to a competitive level in
               multiple games. My coaching includes everything from in-game
               mechanics to strategy and mentality.

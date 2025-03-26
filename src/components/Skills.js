@@ -111,7 +111,7 @@ export default function Skills() {
             img={reactIcon}
           />
           <SkillCard name="Vue.js" experience="Education" img={vue} />
-          <SkillCard name="Angular" experience="Education" img={angular} />
+          {/* <SkillCard name="Angular" experience="Education" img={angular} /> */}
           <SkillCard
             name="React Native"
             experience="Education"

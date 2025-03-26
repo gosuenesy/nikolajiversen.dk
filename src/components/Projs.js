@@ -6,6 +6,9 @@ import graph from "../assets/projs/graph.png";
 import hamburgermenu from "../assets/projs/hamburgermenu.png";
 import loginfirebase from "../assets/projs/loginfirebase.png";
 import csgo from "../assets/projs/csgo.png";
+import quakeStats from "../assets/projs/quakeStats.png";
+import supabaseLogin from "../assets/projs/supabaseLogin.png";
+import dbtMapStats from "../assets/projs/dbtMapStats.png";
 
 export default function Projs() {
   return (
@@ -24,40 +27,52 @@ export default function Projs() {
       {/* <div className="flex flex-col md:flex-row flex-wrap mt-4 gap-5"> */}
       <div className="grid grid-cols-1 md:grid-cols-3 justify-center mt-4 gap-5">
         <ProjCard
-          name="Heatmap for Seasony's app"
+          name="Quake Stats app"
+          img={quakeStats}
+          desc="Developed in React with MUI and supabase"
+          date="2025"
+        />
+        <ProjCard
+          name="Login with supabase"
+          img={supabaseLogin}
+          desc="Developed in React with supabase"
+          date="2024"
+        />
+        <ProjCard
+          name="Heatmap for robot"
           img={heatmap}
-          desc="Developed in React with heatmap.js. Shows data from a robots sensor, which i get from the API. My own design."
-          date="August - October 2022"
+          desc="Developed in React.js"
+          date="2023"
         />
         <ProjCard
-          name="Graphs for Seasony's app"
-          img={graph}
-          desc="Developed in React with Recharts. Shows data from a robots sensor, which i get from the API. My own design."
-          date="August - October 2022"
+          name="Diabotical map stats app"
+          img={dbtMapStats}
+          desc="Developed with Vue.js"
+          date="2023"
         />
         <ProjCard
-          name="Hamburger-menu for Seasony's app"
-          img={hamburgermenu}
-          desc="Developed in React. Made with animations in CSS. My own design."
-          date="August - October 2022"
+          name="Diabotical player stats app"
+          img={dbtstats}
+          desc="Developed with Vue.js and Bootstrap"
+          date="2022"
         />
         <ProjCard
           name="CSGO stats app"
           img={csgo}
-          desc="Developed in React Native. Shows data from HLTV API. My own design."
-          date="May 2022"
+          desc="Developed in React Native."
+          date="2022"
         />
         <ProjCard
           name="Login system with Firebase"
           img={loginfirebase}
-          desc="Developed in React Native with Firebase. Uses account data saved in Firebase database. My own design."
-          date="May 2022"
+          desc="Developed in React Native with Firebase."
+          date="2022"
         />
         <ProjCard
-          name="Diabotical stats app"
-          img={dbtstats}
-          desc="Hobby project developed in Vue.js. Shows data from Diabotical API. My own design."
-          date="February 2022"
+          name="Graphs"
+          img={graph}
+          desc="Developed in React.js."
+          date="2022"
         />
       </div>
     </div>
