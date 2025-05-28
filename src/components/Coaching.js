@@ -10,7 +10,7 @@ export default function Coaching() {
       data-aos-duration="500"
       data-aos-offset="100"
     >
-      <a id="coaching" className="anchor"></a>
+      <a id="coaching" className="scroll-mt-32 anchor"></a>
       <h1
         className="text-3xl font-bold text-center"
         style={{ margin: "24px", marginTop: "40px" }}

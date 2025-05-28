@@ -2,7 +2,7 @@ import { TwitchEmbed } from "react-twitch-embed";
 import React, { useRef } from "react";
 
 export default function Twitch() {
-  const embed = useRef(); //ref instead of state to avoid rerenders
+  const embed = useRef();
 
   const handleReady = (e) => {
     embed.current = e;
@@ -10,7 +10,7 @@ export default function Twitch() {
   return (
     <div
       id="livestream"
-      className="mt-4 text-white"
+      className="scroll-mt-32 mt-4 text-white"
       data-aos="fade-up"
       data-aos-duration="500"
       data-aos-offset="100"

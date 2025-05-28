@@ -12,19 +12,13 @@ import dbtMapStats from "../assets/projs/dbtMapStats.png";
 
 export default function Projs() {
   return (
-    <div id="Projs" className="mt-4 text-white">
+    <div id="Projs" className="scroll-mt-32 mt-4 text-white">
       <h1
         className="text-3xl font-bold text-center"
         style={{ margin: "24px", marginTop: "40px" }}
       >
         Projects
       </h1>
-      {/* <p className="font-light text-gray-400">
-        Her er nogle af mine projekter. Koden til de fleste projekter findes på
-        min GitHub
-      </p> */}
-
-      {/* <div className="flex flex-col md:flex-row flex-wrap mt-4 gap-5"> */}
       <div className="grid grid-cols-1 md:grid-cols-3 justify-center mt-4 gap-5">
         <ProjCard
           name="Quake Stats app"

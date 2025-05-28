@@ -14,16 +14,9 @@ export default function Main() {
 
   return (
     <>
-      {/* {loaded ?
-        <div
-            className="fixed top-0 left-0 right-0 bottom-0 w-full h-screen z-50 overflow-hidden bg-white flex flex-col items-center justify-center"
-        >Loading...</div>
-            :
-            null
-        } */}
       <div
         id="home"
-        className="flex w-full h-screen flex-col md:flex-row gap-20 items-center justify-center text-white relative"
+        className="scroll-mt-32 flex w-full h-screen flex-col md:flex-row gap-20 items-center justify-center text-white relative"
       >
         <div className="md:w-3/6 md:p-4">
           <img
@@ -49,17 +42,11 @@ export default function Main() {
           data-aos-offset="100"
         >
           <div className="flex flex-col w-full mt-8">
-            {/* <h1 className="text-xl text-gray-400">Hi, I'm</h1> */}
             <h1 className="text-3xl font-bold">Nikolaj Skovgaard Iversen</h1>
             <p class="text-xl font-bold text-gray-300">
               Fullstack Frontend developer, professional gamer and coach
-              {/* , game developer */}
             </p>
             <p className="text-md font-light text-gray-400 ">
-              {/* Frontend developer with a passion for creating visually appealing
-              user interfaces. I excel in translating design concepts into
-              responsive web apps or mobile apps and creating user-friendly
-              solutions. */}
               Fullstack frontend developer with a passion for creating visually
               appealing user interfaces. I excel in translating design concepts
               into responsive web apps or mobile apps and creating user-friendly
@@ -79,10 +66,6 @@ export default function Main() {
               <br />I have coached multiple people up to a competitive level in
               multiple games. My coaching includes everything from in-game
               mechanics to strategy and mentality.
-              {/* <br />
-              <br />
-              Passionate game developer and designer. Currently working on
-              mobile games. */}
             </p>
           </div>
           <ul className="flex mt-2 gap-4 items-center">
