@@ -2,13 +2,11 @@ import ProjCard from "./ProjCard.js";
 
 import heatmap from "../assets/projs/heatmap.png";
 import dbtstats from "../assets/projs/dbtstats.png";
-import graph from "../assets/projs/graph.png";
-import hamburgermenu from "../assets/projs/hamburgermenu.png";
-import loginfirebase from "../assets/projs/loginfirebase.png";
-import csgo from "../assets/projs/csgo.png";
+import personalwebsite from "../assets/projs/personalwebsite.png";
 import quakeStats from "../assets/projs/quakeStats.png";
 import supabaseLogin from "../assets/projs/supabaseLogin.png";
 import dbtMapStats from "../assets/projs/dbtMapStats.png";
+import dota2statsapp from "../assets/projs/dota2statsapp.png";
 
 export default function Projs() {
   return (
@@ -21,52 +19,38 @@ export default function Projs() {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 justify-center mt-4 gap-5">
         <ProjCard
-          name="Quake Stats app"
+          name="Dota 2 pro player stats app"
+          img={dota2statsapp}
+          desc="Developed with React and MUI"
+          github="https://github.com/gosuenesy/dota2-stats-app"
+        />
+        <ProjCard
+          name="Personal Quake stats app"
           img={quakeStats}
-          desc="Developed in React with MUI and supabase"
-          date="2025"
+          desc="Developed with React and MUI and supabase backend"
+          github="https://github.com/gosuenesy/quake-stats"
         />
         <ProjCard
-          name="Login with supabase"
+          name="Tennis club member app"
           img={supabaseLogin}
-          desc="Developed in React with supabase"
-          date="2024"
+          desc="Developed with React and supabase as backend"
+          github="https://github.com/gosuenesy/itpk-member-app"
         />
         <ProjCard
-          name="Heatmap for robot"
-          img={heatmap}
-          desc="Developed in React.js"
-          date="2023"
+          name="Current personal website you are viewing"
+          img={personalwebsite}
+          desc="Developed with React and Tailwind CSS"
+          github="https://github.com/gosuenesy/nikolajiversen.dk"
         />
         <ProjCard
-          name="Diabotical map stats app"
+          name="Diabotical map stats app for my team"
           img={dbtMapStats}
-          desc="Developed with Vue.js"
-          date="2023"
-        />
-        <ProjCard
-          name="Diabotical player stats app"
-          img={dbtstats}
           desc="Developed with Vue.js and Bootstrap"
-          date="2022"
         />
         <ProjCard
-          name="CSGO stats app"
-          img={csgo}
-          desc="Developed in React Native."
-          date="2022"
-        />
-        <ProjCard
-          name="Login system with Firebase"
-          img={loginfirebase}
-          desc="Developed in React Native with Firebase."
-          date="2022"
-        />
-        <ProjCard
-          name="Graphs"
-          img={graph}
-          desc="Developed in React.js."
-          date="2022"
+          name="Diabotical player stats app for my team"
+          img={dbtstats}
+          desc="Developed with Vue.js"
         />
       </div>
     </div>
