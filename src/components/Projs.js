@@ -33,7 +33,7 @@ export default function Projs() {
         <ProjCard
           name="Tennis club member app"
           img={supabaseLogin}
-          desc="Developed with React and supabase as backend"
+          desc="Developed with React and Render as backend"
           github="https://github.com/gosuenesy/itpk-member-app"
         />
         <ProjCard
