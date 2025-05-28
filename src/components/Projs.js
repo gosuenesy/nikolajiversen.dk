@@ -1,12 +1,12 @@
 import ProjCard from "./ProjCard.js";
 
-import heatmap from "../assets/projs/heatmap.png";
 import dbtstats from "../assets/projs/dbtstats.png";
 import personalwebsite from "../assets/projs/personalwebsite.png";
 import quakeStats from "../assets/projs/quakeStats.png";
 import supabaseLogin from "../assets/projs/supabaseLogin.png";
 import dbtMapStats from "../assets/projs/dbtMapStats.png";
 import dota2statsapp from "../assets/projs/dota2statsapp.png";
+import itpkmemberapp from "../assets/projs/itpkmemberapp.png";
 
 export default function Projs() {
   return (
@@ -32,7 +32,7 @@ export default function Projs() {
         />
         <ProjCard
           name="Tennis club member app"
-          img={supabaseLogin}
+          img={itpkmemberapp}
           desc="Developed with React, MUI and Render as backend"
           github="https://github.com/gosuenesy/itpk-member-app"
         />
