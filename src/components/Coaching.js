@@ -19,44 +19,22 @@ export default function Coaching() {
       </h1>
       <div className="flex justify-center">
         <div className="w-128 bg-dark bg-dark-200 rounded-md py-4 px-4">
-          <h1
-            className="text-6xl font-bold text-center"
-            style={{ margin: "24px" }}
-          >
-            €35
-          </h1>
-          <p
-            className="text-2xl font-light text-center"
-            style={{ margin: "24px" }}
-          >
-            per hour
-          </p>
+          <h1 className="text-6xl font-bold text-center m-4">€35</h1>
+          <p className="text-2xl font-light text-center m-4">per hour</p>
           <HrCurve />
-          <p
-            className="text-2xl font-light text-center"
-            style={{ margin: "24px" }}
-          >
+          <p className="text-2xl font-light text-center m-4">
             <FontAwesomeIcon size="1xl" color="#2dd4bf" icon={faCheck} />{" "}
             Mechanical Skills
           </p>
-          <p
-            className="text-2xl font-light text-center"
-            style={{ margin: "24px" }}
-          >
+          <p className="text-2xl font-light text-center m-4">
             <FontAwesomeIcon size="1xl" color="#2dd4bf" icon={faCheck} />{" "}
             Strategy
           </p>
-          <p
-            className="text-2xl font-light text-center"
-            style={{ margin: "24px" }}
-          >
+          <p className="text-2xl font-light text-center m-4">
             <FontAwesomeIcon size="1xl" color="#2dd4bf" icon={faCheck} />{" "}
             Mentality
           </p>
-          <p
-            className="text-2xl font-light text-center"
-            style={{ margin: "24px" }}
-          >
+          <p className="text-2xl font-light text-center m-4">
             <FontAwesomeIcon size="1xl" color="#2dd4bf" icon={faCheck} />{" "}
             Continuous Communication
           </p>

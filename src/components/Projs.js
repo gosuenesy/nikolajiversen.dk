@@ -3,7 +3,6 @@ import ProjCard from "./ProjCard.js";
 import dbtstats from "../assets/projs/dbtstats.png";
 import personalwebsite from "../assets/projs/personalwebsite.png";
 import quakeStats from "../assets/projs/quakeStats.png";
-import supabaseLogin from "../assets/projs/supabaseLogin.png";
 import dbtMapStats from "../assets/projs/dbtMapStats.png";
 import dota2statsapp from "../assets/projs/dota2statsapp.png";
 import itpkmemberapp from "../assets/projs/itpkmemberapp.png";
