@@ -71,6 +71,15 @@ export default function Main() {
           <ul className="flex mt-2 gap-4 items-center">
             <li>
               <a
+                href="https://github.com/gosuenesy"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <FontAwesomeIcon size="2xl" icon={faGithub} color="#2dd4bf" />
+              </a>
+            </li>
+            <li>
+              <a
                 href="https://www.linkedin.com/in/nikolaj-iversen-525279224/"
                 rel="noreferrer"
                 target="_blank"
@@ -80,15 +89,6 @@ export default function Main() {
                   icon={faLinkedinIn}
                   color="#2dd4bf"
                 />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/gosuenesy"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <FontAwesomeIcon size="2xl" icon={faGithub} color="#2dd4bf" />
               </a>
             </li>
             <li>

@@ -1,5 +1,5 @@
 import logo from "../assets/atliens.jpg";
-import resume from "../assets/Cvefs.pdf";
+import resume from "../assets/cvefsf.pdf";
 
 export default function Navbar() {
   return (
