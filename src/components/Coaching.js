@@ -11,71 +11,79 @@ export default function Coaching() {
       data-aos-offset="100"
     >
       <a id="coaching" className="scroll-mt-32 anchor"></a>
-      <h1
-        className="text-3xl font-bold text-center"
-        style={{ margin: "24px", marginTop: "40px" }}
-      >
-        Coaching
-      </h1>
+      <h1 className="text-3xl font-bold text-center my-10">Coaching</h1>
+
       <div className="flex justify-center">
-        <div className="w-128 bg-dark bg-dark-200 rounded-md py-4 px-4">
+        <div
+          className="w-128 
+                bg-white/10 backdrop-blur-md 
+                border border-white/20 shadow-lg 
+                rounded-xl py-4 px-4"
+        >
           <h1 className="text-6xl font-bold text-center m-4">€35</h1>
           <p className="text-2xl font-light text-center m-4">per hour</p>
           <HrCurve />
-          <p className="text-2xl font-light text-center m-4">
-            <FontAwesomeIcon size="1xl" color="#2dd4bf" icon={faCheck} />{" "}
-            Mechanical Skills
-          </p>
-          <p className="text-2xl font-light text-center m-4">
-            <FontAwesomeIcon size="1xl" color="#2dd4bf" icon={faCheck} />{" "}
-            Strategy
-          </p>
-          <p className="text-2xl font-light text-center m-4">
-            <FontAwesomeIcon size="1xl" color="#2dd4bf" icon={faCheck} />{" "}
-            Mentality
-          </p>
-          <p className="text-2xl font-light text-center m-4">
-            <FontAwesomeIcon size="1xl" color="#2dd4bf" icon={faCheck} />{" "}
-            Continuous Communication
-          </p>
+
+          {[
+            "Mechanical Skills",
+            "Strategy",
+            "Mentality",
+            "Continuous Communication",
+          ].map((item) => (
+            <p key={item} className="text-2xl font-light text-center m-4">
+              <FontAwesomeIcon size="1xl" color="#2dd4bf" icon={faCheck} />{" "}
+              {item}
+            </p>
+          ))}
         </div>
       </div>
-      <br />
-      <p className="text-xl font-light text-center">
+
+      <p className="text-xl font-light text-center my-6">
         I have played on a professional level in multiple FPS games with ~6000
         USD tournament earnings. Tournament results on my{" "}
         <a
           href="https://liquipedia.net/arenafps/Enesy"
           target="_blank"
-          className="hover:text-teal-400 text-xl font-bold text-center"
+          className="hover:text-teal-400 text-xl font-bold"
         >
           Liquipedia
         </a>
+        .
       </p>
-      <p className="text-xl font-light text-center" style={{ margin: "24px" }}>
+
+      <div className="text-xl font-light text-center my-6">
         I have reached the highest ranks and provide coaching in multiple games
         including:
-        <p className="text-2xl font-bold text-center">
-          Quake Champions <p className="text-xl font-light inline">Rank 1</p>
-          <br />
-          Quake Live <p className="text-xl font-light inline">Rank 1</p>
-          <br />
-          Diabotical <p className="text-xl font-light inline">Rank 1</p>
-          <br />
-          League of Legends{" "}
-          <p className="text-xl font-light inline">Diamond 1</p>
-          <br />
-          StarCraft II <p className="text-xl font-light inline">Grandmaster</p>
-          <br />
-          Chess <p className="text-xl font-light inline">1900 elo</p>
-        </p>
+        <div className="text-2xl font-bold mt-4">
+          <p>
+            Quake Champions <span className="text-xl font-light">Top 10 duel and 2v2</span>
+          </p>
+          <p>
+            Quake Live <span className="text-xl font-light">Rank 1 CA, rank 3 CTF</span>
+          </p>
+          <p>
+            Diabotical <span className="text-xl font-light">Rank 1</span>
+          </p>
+          <p>
+            League of Legends{" "}
+            <span className="text-xl font-light">Diamond 1</span>
+          </p>
+          <p>
+            StarCraft II <span className="text-xl font-light">Grandmaster</span>
+          </p>
+          <p>
+            Chess <span className="text-xl font-light">1900 elo</span>
+          </p>
+        </div>
+      </div>
+
+      <p className="text-xl font-light text-center my-6">
+        I provide single or multiple hour one on one sessions that include VOD
+        reviewing, live coaching, and providing a training regiment.
       </p>
-      <p className="text-xl font-light text-center" style={{ margin: "24px" }}>
-        I provide single or multiple hour one on one sessions that includes vod
-        reviewing, live coaching and providing a training regiment.
-      </p>
-      <p className="text-xl font-light text-center" style={{ margin: "24px" }}>
-        Message me on Discord: <p className="text-xl font-bold inline">enesy</p>
+
+      <p className="text-xl font-light text-center my-6">
+        Message me on Discord: <span className="text-xl font-bold">enesy</span>
       </p>
     </div>
   );

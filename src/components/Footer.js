@@ -2,7 +2,12 @@ import HrCurve from "./HrCurve";
 
 export default function Footer() {
   return (
-    <div className="mt-4 bg-dark-200 rounded-md text-white px-8 py-4">
+    <div
+      className="mt-4 
+                bg-white/10 backdrop-blur-md 
+                border border-white/20 shadow-lg 
+                rounded-xl text-white px-8 py-4"
+    >
       <ul className="text-center">
         <li>
           <a href="#home" className="hover:text-teal-400">

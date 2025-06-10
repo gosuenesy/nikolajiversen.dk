@@ -5,7 +5,11 @@ export default function ProjCard({ name, img, desc, github }) {
         data-aos="fade-up"
         data-aos-duration="500"
         data-aos-offset="100"
-        className="hover:bg-dark w-full h-full bg-dark-200 rounded-md py-4 px-4"
+        className="w-full h-full 
+             bg-white/10 backdrop-blur-md 
+             border border-white/20 shadow-lg 
+             rounded-xl py-4 px-4 
+             hover:bg-white/20 transition duration-200"
       >
         <img src={img} className="h-56 mx-auto object-cover" alt={name} />
         <div className="mt-2">

@@ -16,19 +16,39 @@ function App() {
     document.title = "Nikolaj Skovgaard Iversen";
     AOS.init();
   }, []);
+
   return (
-    <div className="px-6 lg:px-20 xl:px-36 bg-dark-500">
-      <Navbar />
-      <Main />
-      <HrCurve />
-      <Skills />
-      <HrCurve />
-      <Projs />
-      <HrCurve />
-      <Twitch />
-      <HrCurve />
-      <Coaching />
-      <Footer />
+    <div className="relative overflow-hidden">
+      <div className="blob blob1"></div>
+      <div className="blob blob2"></div>
+
+      <div className="relative z-10 px-6 lg:px-20 xl:px-36">
+        <Navbar />
+
+        <Main />
+
+        <div className="my-20">
+          <HrCurve />
+          <Skills />
+        </div>
+
+        <div className="my-20">
+          <HrCurve />
+          <Projs />
+        </div>
+
+        <div className="my-20">
+          <HrCurve />
+          <Twitch />
+        </div>
+
+        <div className="my-20">
+          <HrCurve />
+          <Coaching />
+        </div>
+
+        <Footer />
+      </div>
     </div>
   );
 }
