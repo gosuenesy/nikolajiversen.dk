@@ -24,16 +24,16 @@ export default function Projs() {
           github="https://github.com/gosuenesy/dota2-stats-app"
         />
         <ProjCard
-          name="Personal Quake stats app"
-          img={quakeStats}
-          desc="Developed with React, MUI and supabase backend"
-          github="https://github.com/gosuenesy/quake-stats"
-        />
-        <ProjCard
           name="Tennis club member app"
           img={itpkmemberapp}
           desc="Developed with React, MUI and Render as backend"
           github="https://github.com/gosuenesy/itpk-member-app"
+        />
+        <ProjCard
+          name="Personal Quake stats app"
+          img={quakeStats}
+          desc="Developed with React, MUI and supabase backend"
+          github="https://github.com/gosuenesy/quake-stats"
         />
         <ProjCard
           name="Current personal website you are viewing"
