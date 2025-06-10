@@ -1,16 +1,5 @@
 export default function HrCurve() {
   return (
-    <hr
-      style={{
-        border: "0px",
-        width: "20%",
-        height: "3px",
-        marginTop: "32px",
-        marginBottom: "32px",
-        marginLeft: "auto",
-        marginRight: "auto",
-        background: "#0d9488",
-      }}
-    />
+    <div className="my-8 mx-auto w-1/5 h-[3px] rounded-full bg-gradient-to-r from-teal-800 to-teal-400" />
   );
 }
