@@ -15,27 +15,42 @@ export default function Navbar() {
         </a>
         <ul className="hidden md:flex">
           <li className="p-4">
-            <a href="#home" className="hover:text-teal-400">
+            <a
+              href="#home"
+              className="transition duration-300 hover:text-teal-400 hover:drop-shadow-[0_0_6px_#2dd4bf]"
+            >
               Profile
             </a>
           </li>
           <li className="p-4">
-            <a href="#skills" className="hover:text-teal-400">
+            <a
+              href="#skills"
+              className="transition duration-300 hover:text-teal-400 hover:drop-shadow-[0_0_6px_#2dd4bf]"
+            >
               Skills
             </a>
           </li>
           <li className="p-4">
-            <a href="#Projs" className="hover:text-teal-400">
+            <a
+              href="#Projs"
+              className="transition duration-300 hover:text-teal-400 hover:drop-shadow-[0_0_6px_#2dd4bf]"
+            >
               Projects
             </a>
           </li>
           <li className="p-4">
-            <a href="#livestream" className="hover:text-teal-400">
+            <a
+              href="#livestream"
+              className="transition duration-300 hover:text-teal-400 hover:drop-shadow-[0_0_6px_#2dd4bf]"
+            >
               Livestream
             </a>
           </li>
           <li className="p-4">
-            <a href="#coaching" className="hover:text-teal-400">
+            <a
+              href="#coaching"
+              className="transition duration-300 hover:text-teal-400 hover:drop-shadow-[0_0_6px_#2dd4bf]"
+            >
               Coaching
             </a>
           </li>
