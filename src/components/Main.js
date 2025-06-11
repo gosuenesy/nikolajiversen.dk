@@ -35,14 +35,14 @@ export default function Main() {
 
         <div
           className="md:w-3/6 
-             bg-white/10 backdrop-blur-md 
+             bg-gradient-to-b from-white/10 backdrop-blur-md 
              border border-white/20 shadow-lg 
              rounded-xl p-6"
           data-aos="fade-right"
           data-aos-duration="1000"
           data-aos-offset="100"
         >
-          <div className="flex flex-col w-full mt-8">
+          <div className="flex flex-col w-full">
             <h1 className="text-3xl font-bold">Nikolaj Skovgaard Iversen</h1>
             <p className="text-xl font-bold text-gray-300">
               Fullstack Frontend developer, professional gamer and coach
@@ -52,7 +52,7 @@ export default function Main() {
               Fullstack frontend developer with a passion for creating visually
               appealing user interfaces. I excel in translating design concepts
               into responsive web apps or mobile apps and creating user-friendly
-              solutions and backend development with API.
+              solutions with backend API integration as well.
             </p>
 
             <p className="text-md font-light text-gray-400 mt-4">
