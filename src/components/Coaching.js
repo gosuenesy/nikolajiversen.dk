@@ -16,7 +16,7 @@ export default function Coaching() {
       <div className="flex justify-center">
         <div
           className="w-128 
-                bg-white/10 backdrop-blur-md 
+                bg-gradient-to-b from-white/10 backdrop-blur-md 
                 border border-white/20 shadow-lg 
                 rounded-xl py-4 px-4"
         >
@@ -56,10 +56,12 @@ export default function Coaching() {
         including:
         <div className="text-2xl font-bold mt-4">
           <p>
-            Quake Champions <span className="text-xl font-light">Top 10 duel and 2v2</span>
+            Quake Champions{" "}
+            <span className="text-xl font-light">Top 10 duel and 2v2</span>
           </p>
           <p>
-            Quake Live <span className="text-xl font-light">Rank 1 CA, rank 3 CTF</span>
+            Quake Live{" "}
+            <span className="text-xl font-light">Rank 1 CA, rank 3 CTF</span>
           </p>
           <p>
             Diabotical <span className="text-xl font-light">Rank 1</span>

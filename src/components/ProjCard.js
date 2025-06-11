@@ -6,7 +6,7 @@ export default function ProjCard({ name, img, desc, github }) {
         data-aos-duration="500"
         data-aos-offset="100"
         className="w-full h-full 
-             bg-white/10 backdrop-blur-md 
+             bg-gradient-to-b from-white/10 backdrop-blur-md 
              border border-white/20 shadow-lg 
              rounded-xl py-4 px-4 
              hover:bg-white/20 transition duration-200"
@@ -20,7 +20,7 @@ export default function ProjCard({ name, img, desc, github }) {
               href={github}
               target="_blank"
               rel="noopener noreferrer"
-              className="font-light text-teal-400 hover:underline"
+              className="font-light text-teal-400 transition duration-300 hover:drop-shadow-[0_0_6px_#2dd4bf]"
             >
               View on GitHub
             </a>
