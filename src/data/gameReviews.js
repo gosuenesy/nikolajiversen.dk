@@ -1,6 +1,4 @@
-// src/data/gameReviews.js
 const gameReviews = [
-  // --- 5.0s (curated order 1..12) ---
   {
     id: "diablo-2",
     slug: "diablo-2",

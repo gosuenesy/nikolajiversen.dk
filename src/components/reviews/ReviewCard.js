@@ -43,7 +43,6 @@ export default function ReviewCard({ review, rank }) {
               onError={(e) => {
                 if (!e.currentTarget.dataset.fallback) {
                   e.currentTarget.dataset.fallback = "1";
-                  // Generic fallback: a tiny neutral placeholder (transparent PNG)
                   e.currentTarget.src =
                     "https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg";
                 }
