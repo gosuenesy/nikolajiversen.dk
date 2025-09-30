@@ -75,7 +75,7 @@ make this one of the most emotional records of the 90s.`,
     date: "2004-02-10",
     year: 2004,
     rating: 5.0,
-    curated: 5,
+    curated: 6,
     image:
       "https://upload.wikimedia.org/wikipedia/en/a/a3/Kanyewest_collegedropout.jpg",
     bestTracks: ["Through the Wire", "Family Business", "Spaceship"],
@@ -92,7 +92,7 @@ about ambition and struggle outside gangsta rap tropes.`,
     date: "1973-08-03",
     year: 1973,
     rating: 5.0,
-    curated: 6,
+    curated: 5,
     image:
       "https://upload.wikimedia.org/wikipedia/en/6/6b/Steviewonder_innervisions.jpg",
     bestTracks: [
