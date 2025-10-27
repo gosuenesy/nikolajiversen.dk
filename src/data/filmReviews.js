@@ -66,7 +66,7 @@ Greed, oil, and obsession, set to Jonny Greenwood’s unnerving score.`,
     body: `Stylish, brutal, and emotionally devastating. 
 A revenge story unlike any other.`,
   },
-  {
+  /*{
     id: "city-of-god",
     slug: "city-of-god",
     title: "City of God",
@@ -82,7 +82,7 @@ A revenge story unlike any other.`,
     tags: ["crime", "drama"],
     body: `A kinetic, raw portrait of life in Rio’s favelas. 
 Both exhilarating and tragic.`,
-  },
+  }, */
   {
     id: "alien",
     slug: "alien",
@@ -111,7 +111,7 @@ The perfect mix of sci-fi atmosphere and horror tension.`,
     rating: 5.0,
     curated: 6,
     image:
-      "https://upload.wikimedia.org/wikipedia/en/2/27/Blade_Runner_2049.png",
+      "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_.jpg",
     bestTracks: [],
     tags: ["sci-fi", "neo-noir"],
     body: `A visually stunning and surprisingly introspective sequel. 
@@ -128,7 +128,7 @@ Roger Deakins’ cinematography is otherworldly.`,
     rating: 5.0,
     curated: 7,
     image:
-      "https://upload.wikimedia.org/wikipedia/en/5/51/The_Hunt_%282012_film%29.png",
+      "https://upload.wikimedia.org/wikipedia/en/4/44/The_Hunt_%282012_film%29.jpg",
     bestTracks: [],
     tags: ["drama", "thriller"],
     body: `Mads Mikkelsen gives a heartbreaking performance. 
@@ -145,7 +145,7 @@ A story of suspicion, trust, and community paranoia.`,
     rating: 5.0,
     curated: 8,
     image:
-      "https://upload.wikimedia.org/wikipedia/en/3/30/Spirited_Away_poster.JPG",
+      "https://upload.wikimedia.org/wikipedia/en/d/db/Spirited_Away_Japanese_poster.png",
     bestTracks: [],
     tags: ["animation", "fantasy"],
     body: `Studio Ghibli’s crowning achievement. 
