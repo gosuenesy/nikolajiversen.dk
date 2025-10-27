@@ -1,4 +1,4 @@
-export default function ProjCard({ name, img, desc, github }) {
+export default function ProjCard({ name, img, desc, github, link, linkDesc }) {
   return (
     <a href={img}>
       <div
@@ -22,7 +22,17 @@ export default function ProjCard({ name, img, desc, github }) {
               rel="noopener noreferrer"
               className="font-light text-teal-400 transition duration-300 hover:drop-shadow-[0_0_6px_#2dd4bf]"
             >
-              View on GitHub
+              Source code on GitHub
+            </a>
+          )}
+          {link && (
+            <a
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-light text-teal-400 transition duration-300 hover:drop-shadow-[0_0_6px_#2dd4bf]"
+            >
+              {linkDesc}
             </a>
           )}
         </div>

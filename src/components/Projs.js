@@ -1,11 +1,12 @@
 import ProjCard from "./ProjCard.js";
 
-import dbtstats from "../assets/projs/dbtstats.png";
-import personalwebsite from "../assets/projs/personalwebsite.png";
+//import dbtstats from "../assets/projs/dbtstats.png";
+import personalwebsite from "../assets/projs/site.png";
 import quakeStats from "../assets/projs/quakeStats.png";
 import dbtMapStats from "../assets/projs/dbtMapStats.png";
 import dota2statsapp from "../assets/projs/dota2statsapp.png";
 import itpkmemberapp from "../assets/projs/itpkmemberapp.png";
+import tens from "../assets/tens_thumb.png";
 
 export default function Projs() {
   return (
@@ -17,6 +18,13 @@ export default function Projs() {
         Projects
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 justify-center mt-4 gap-5">
+        <ProjCard
+          name="Tens - Mobile Puzzle Game"
+          img={tens}
+          desc="Solo developed with Game Maker Studio 2"
+          link="https://play.google.com/store/apps/details?id=com.nsigames.nsigames.tens"
+          linkDesc={"View on Google Play"}
+        />
         <ProjCard
           name="Dota 2 pro player stats app"
           img={dota2statsapp}
@@ -36,7 +44,7 @@ export default function Projs() {
           github="https://github.com/gosuenesy/quake-stats"
         />
         <ProjCard
-          name="Current personal website you are viewing"
+          name="Personal website"
           img={personalwebsite}
           desc="Developed with React and Tailwind CSS"
           github="https://github.com/gosuenesy/nikolajiversen.dk"
@@ -45,11 +53,6 @@ export default function Projs() {
           name="Diabotical map stats app for my team"
           img={dbtMapStats}
           desc="Developed with Vue.js and Bootstrap"
-        />
-        <ProjCard
-          name="Diabotical player stats app for my team"
-          img={dbtstats}
-          desc="Developed with Vue.js"
         />
       </div>
     </div>
