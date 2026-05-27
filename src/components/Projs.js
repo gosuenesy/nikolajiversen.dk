@@ -3,10 +3,11 @@ import ProjCard from "./ProjCard.js";
 //import dbtstats from "../assets/projs/dbtstats.png";
 import personalwebsite from "../assets/projs/site.png";
 import quakeStats from "../assets/projs/quakeStats.png";
-import dbtMapStats from "../assets/projs/dbtMapStats.png";
+//import dbtMapStats from "../assets/projs/dbtMapStats.png";
 import dota2statsapp from "../assets/projs/dota2statsapp.png";
 import itpkmemberapp from "../assets/projs/itpkmemberapp.png";
 import tens from "../assets/tens_thumb.png";
+import esportschoolThumb from "../assets/logo.png";
 
 export default function Projs() {
   return (
@@ -18,6 +19,13 @@ export default function Projs() {
         Projects
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 justify-center mt-4 gap-5">
+        <ProjCard
+          name="esportschool.gg"
+          img={esportschoolThumb}
+          desc="Co-founder and lead developer of esports education platform. Built with React, JavaScript, Tailwind, and Supabase"
+          link="https://www.esportschool.gg"
+          linkDesc={"Visit esportschool.gg"}
+        />
         <ProjCard
           name="Tens - Mobile Puzzle Game"
           img={tens}
@@ -48,11 +56,6 @@ export default function Projs() {
           img={personalwebsite}
           desc="Developed with React and Tailwind CSS"
           github="https://github.com/gosuenesy/nikolajiversen.dk"
-        />
-        <ProjCard
-          name="Diabotical map stats app for my team"
-          img={dbtMapStats}
-          desc="Developed with Vue.js and Bootstrap"
         />
       </div>
     </div>
