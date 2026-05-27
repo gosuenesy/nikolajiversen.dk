@@ -52,25 +52,25 @@ function HomeWrapper() {
     <>
       <Main />
 
-      <div className="my-20" id="skills">
+      <section id="skills" className="scroll-mt-32 py-20">
         <HrCurve />
         <Skills />
-      </div>
+      </section>
 
-      <div className="my-20" id="projects">
+      <section id="projects" className="scroll-mt-32 py-20">
         <HrCurve />
         <Projs />
-      </div>
+      </section>
 
-      <div className="my-20" id="twitch">
+      <section id="livestream" className="scroll-mt-32 py-20">
         <HrCurve />
         <Twitch />
-      </div>
+      </section>
 
-      <div className="my-20" id="coaching">
+      <section id="coaching" className="scroll-mt-32 py-20">
         <HrCurve />
         <Coaching />
-      </div>
+      </section>
     </>
   );
 }
