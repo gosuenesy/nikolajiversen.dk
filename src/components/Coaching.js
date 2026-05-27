@@ -5,13 +5,12 @@ import { faCheck } from "@fortawesome/free-solid-svg-icons";
 export default function Coaching() {
   return (
     <div
-      className="cont mt-4 text-white"
+      className="text-white"
       data-aos="fade-up"
       data-aos-duration="500"
       data-aos-offset="100"
     >
-      <a id="coaching" className="scroll-mt-32 anchor"></a>
-      <h1 className="text-3xl font-bold text-center my-10">Coaching</h1>
+      <h1 className="text-3xl font-bold text-center mb-10">Coaching</h1>
 
       <div className="flex justify-center">
         <div

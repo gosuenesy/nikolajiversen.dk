@@ -24,7 +24,7 @@ export default function Footer() {
 
   return (
     <footer
-      className="mt-4
+      className="mt-20
                  bg-gradient-to-b from-white/10 backdrop-blur-md
                  border border-white/20 shadow-lg
                  rounded-xl text-white px-8 py-4"

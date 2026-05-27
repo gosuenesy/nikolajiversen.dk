@@ -26,7 +26,6 @@ function ScrollAndAOS() {
   return null;
 }
 
-// Smooth scroll with a fixed-header offset
 function scrollToIdWithOffset(id, offset = 80) {
   const el = document.getElementById(id);
   if (!el) return;
@@ -39,11 +38,9 @@ function HomeWrapper() {
   const location = useLocation();
 
   useEffect(() => {
-    // support /?to=skills (or projects, twitch, coaching, etc.)
     const params = new URLSearchParams(location.search);
     const to = params.get("to");
     if (to) {
-      // wait a tick to ensure the section is rendered
       setTimeout(() => scrollToIdWithOffset(to, 80), 0);
     }
   }, [location.search]);

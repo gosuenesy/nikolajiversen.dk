@@ -71,8 +71,7 @@ export default function Skills() {
 
   return (
     <div
-      id="skills"
-      className="scroll-mt-32 mt-10 text-white container mx-auto px-4"
+      className="text-white container mx-auto px-4"
     >
       <h1 className="text-3xl font-bold text-center mb-10">Skills</h1>
       <div className="flex justify-center">

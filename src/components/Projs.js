@@ -1,9 +1,7 @@
 import ProjCard from "./ProjCard.js";
 
-//import dbtstats from "../assets/projs/dbtstats.png";
 import personalwebsite from "../assets/projs/site.png";
 import quakeStats from "../assets/projs/quakeStats.png";
-//import dbtMapStats from "../assets/projs/dbtMapStats.png";
 import dota2statsapp from "../assets/projs/dota2statsapp.png";
 import itpkmemberapp from "../assets/projs/itpkmemberapp.png";
 import tens from "../assets/tens_thumb.png";
@@ -11,13 +9,8 @@ import esportschoolThumb from "../assets/logo.png";
 
 export default function Projs() {
   return (
-    <div id="Projs" className="scroll-mt-32 mt-4 text-white">
-      <h1
-        className="text-3xl font-bold text-center"
-        style={{ margin: "24px", marginTop: "40px" }}
-      >
-        Projects
-      </h1>
+    <div className="text-white">
+      <h1 className="text-3xl font-bold text-center mb-10">Projects</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 justify-center mt-4 gap-5">
         <ProjCard
           name="esportschool.gg"
