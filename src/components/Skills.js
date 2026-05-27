@@ -65,14 +65,17 @@ export default function Skills() {
         },
       },
     ],
+    appendDots: (dots) => (
+      <div style={{ paddingTop: "1.5rem" }}>
+        <ul style={{ margin: 0 }}>{dots}</ul>
+      </div>
+    ),
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
   };
 
   return (
-    <div
-      className="text-white container mx-auto px-4"
-    >
+    <div className="text-white container mx-auto px-4">
       <h1 className="text-3xl font-bold text-center mb-10">Skills</h1>
       <div className="flex justify-center">
         <div className="w-full max-w-6xl">
