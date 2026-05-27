@@ -31,7 +31,7 @@ export default function Footer() {
     >
       <div className="flex flex-wrap items-center justify-between gap-4 text-sm text-gray-400">
         <p className="font-light">
-          © {new Date().getFullYear()} Nikolaj Skovgaard Iversen
+          © {new Date().getFullYear()} Nikolaj Iversen
         </p>
 
         <div className="flex items-center gap-6">
