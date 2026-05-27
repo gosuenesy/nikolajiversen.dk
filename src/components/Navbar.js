@@ -6,14 +6,11 @@ export default function Navbar() {
   const location = useLocation();
   const navigate = useNavigate();
 
-  // Keep your anchors & classes; intercept clicks when not on "/"
   const handleSectionClick = (e, id) => {
-    // If we're NOT on the home route, route to / with a query param so App.js can scroll
     if (location.pathname !== "/") {
       e.preventDefault();
       navigate(`/?to=${id}`);
     }
-    // If we ARE on "/", let the normal anchor behavior run (smooth-scroll etc.)
   };
 
   return (
@@ -24,11 +21,7 @@ export default function Navbar() {
                 shadow-md px-8 py-4 lg:px-20 xl:px-36"
     >
       <div className="flex justify-between items-center text-white">
-        {/* Logo -> Home (same styling, intercept when off-home) */}
-        <a
-          href="#home"
-          onClick={(e) => handleSectionClick(e, "home")}
-        >
+        <a href="#home" onClick={(e) => handleSectionClick(e, "home")}>
           <img src={logo} className="App-logo w-10 rounded-full" alt="logo" />
         </a>
 
@@ -102,7 +95,8 @@ export default function Navbar() {
              text-white font-semibold rounded-full 
              px-5 py-2 shadow-md border border-white/10 
              flex items-center gap-2 transition duration-300 
-             hover:shadow-teal-400/30 hover:shadow-lg"
+             hover:shadow-teal-400/30 hover:shadow-lg
+             hover:-translate-y-0.5"
         >
           Resume
         </a>
