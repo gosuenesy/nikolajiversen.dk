@@ -68,43 +68,6 @@ code {
     source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-.slick-slider {
-  margin: auto;
-}
-
-.slick-dots {
-  position: relative !important;
-  bottom: auto !important;
-  margin-top: 1.5rem;
-}
-.slick-dots li button:before {
-  color: white !important;
-  font-size: 9px !important;
-}
-.slick-dots li.slick-active button:before {
-  color: #2dd4bf !important;
-  font-size: 9px !important;
-}
-
-.custom-prevArrow,
-.custom-nextArrow {
-  position: absolute;
-  z-index: 99999;
-  top: 80px;
-  fill: #737373;
-}
-.custom-prevArrow {
-  left: -40px;
-}
-.custom-nextArrow {
-  right: -40px;
-}
-.custom-prevArrow:hover,
-.custom-nextArrow:hover {
-  fill: #2dd4bf;
-  cursor: pointer;
-}
-
 html {
   scroll-behavior: smooth;
 }
