@@ -22,7 +22,7 @@ export default function Projs() {
         <ProjCard
           name="R82-0 — NBA Draft Game"
           img={ranked820}
-          desc="NBA team-draft browser game — chase a perfect 82-0 season and climb the ranked 1v1 ladder."
+          desc="NBA team-draft browser game. Go for a perfect 82-0 season and climb the ranked 1v1 ladder."
           tags={["React", "Tailwind", "Supabase"]}
           link="https://ranked82-0.com"
           linkDesc={"Play at ranked82-0.com"}
@@ -30,7 +30,7 @@ export default function Projs() {
         <ProjCard
           name="38wins — Football Season Game"
           img={wins38}
-          desc="Football browser game — draft an XI, simulate a season, go for 38-0, climb the ranked 1v1 ladder."
+          desc="Football browser game. Draft an XI, simulate a season, go for 38-0, climb the ranked 1v1 ladder."
           tags={["React", "Tailwind", "Supabase"]}
           link="https://38wins.io"
           linkDesc={"Play at 38wins.io"}
