@@ -48,24 +48,24 @@ function HomeWrapper() {
     <>
       <Main />
 
-      <section id="skills" className="scroll-mt-32 py-20">
-        <Hr />
-        <Skills />
-      </section>
-
       <section id="projects" className="scroll-mt-32 py-20">
         <Hr />
         <Projs />
       </section>
 
-      <section id="livestream" className="scroll-mt-32 py-20">
+      <section id="skills" className="scroll-mt-32 py-20">
         <Hr />
-        <Twitch />
+        <Skills />
       </section>
 
       <section id="coaching" className="scroll-mt-32 py-20">
         <Hr />
         <Coaching />
+      </section>
+
+      <section id="livestream" className="scroll-mt-32 py-20">
+        <Hr />
+        <Twitch />
       </section>
     </>
   );
