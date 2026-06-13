@@ -2,9 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
+  }
+}
+
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
