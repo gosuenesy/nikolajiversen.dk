@@ -271,18 +271,17 @@ export default function Main() {
           </ul>
         </div>
 
-        {/* Scroll-down cue (desktop) */}
         <a
           href="#projects"
           aria-label="See my work"
           className="group absolute bottom-8 left-1/2 hidden -translate-x-1/2 flex-col items-center gap-2 text-gray-400 transition-colors duration-300 hover:text-teal-400 md:flex"
         >
-          <span className="text-sm font-semibold uppercase tracking-wide">
+          <span className="text-md font-semibold uppercase tracking-wide">
             See my work
           </span>
           <FontAwesomeIcon
             icon={faChevronDown}
-            className="animate-bounce text-xl"
+            className="animate-bounce text-3xl"
           />
         </a>
       </div>
