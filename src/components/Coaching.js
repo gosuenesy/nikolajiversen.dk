@@ -2,6 +2,22 @@ import Hr from "./Hr";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 
+const INCLUDES = [
+  "Mechanical Skills",
+  "Strategy",
+  "Mentality",
+  "Continuous Communication",
+];
+
+const GAMES = [
+  { game: "Quake Champions", rank: "Top 10 duel & 2v2" },
+  { game: "Quake Live", rank: "Rank 1 CA, Rank 3 CTF" },
+  { game: "Diabotical", rank: "Rank 1" },
+  { game: "League of Legends", rank: "Diamond 1" },
+  { game: "StarCraft II", rank: "Grandmaster" },
+  { game: "Chess", rank: "1900 Elo" },
+];
+
 export default function Coaching() {
   return (
     <div
@@ -12,79 +28,67 @@ export default function Coaching() {
     >
       <h1 className="text-3xl font-bold text-center mb-10">Coaching</h1>
 
+      {/* Pricing */}
       <div className="flex justify-center">
         <div
-          className="w-128 
-                bg-gradient-to-b from-white/10 backdrop-blur-md 
-                border border-white/20 shadow-lg 
-                rounded-xl py-4 px-4"
+          className="w-full max-w-md
+                bg-gradient-to-b from-white/10 backdrop-blur-md
+                border border-white/20 shadow-lg
+                rounded-xl py-6 px-6"
         >
-          <h1 className="text-6xl font-bold text-center m-4">€35</h1>
-          <p className="text-2xl font-light text-center m-4">per hour</p>
+          <h2 className="text-6xl font-bold text-center">€35</h2>
+          <p className="text-2xl font-light text-center mt-1">per hour</p>
           <Hr />
-
-          {[
-            "Mechanical Skills",
-            "Strategy",
-            "Mentality",
-            "Continuous Communication",
-          ].map((item) => (
-            <p key={item} className="text-2xl font-light text-center m-4">
-              <FontAwesomeIcon size="1xl" color="#2dd4bf" icon={faCheck} />{" "}
-              {item}
-            </p>
-          ))}
+          <ul className="space-y-3">
+            {INCLUDES.map((item) => (
+              <li
+                key={item}
+                className="flex items-center justify-center gap-3 text-xl font-light"
+              >
+                <FontAwesomeIcon color="#2dd4bf" icon={faCheck} />
+                {item}
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
 
-      <p className="text-xl font-light text-center my-6">
-        I have played on a professional level in multiple FPS games with ~6000
-        USD tournament earnings. Tournament results on my{" "}
+      {/* Intro */}
+      <p className="mx-auto mt-10 max-w-2xl text-center text-lg font-light text-gray-300">
+        I've competed professionally across multiple FPS titles with ~$6000 in
+        tournament earnings (
         <a
           href="https://liquipedia.net/arenafps/Enesy"
           target="_blank"
-          className="hover:text-teal-400 text-xl font-bold"
+          rel="noreferrer"
+          className="font-semibold text-teal-400 transition hover:text-teal-300"
         >
           Liquipedia
         </a>
-        .
+        ) and reached top ranks in the games below. Sessions are 1-on-1 and
+        include VOD review, live coaching, and a tailored training plan.
       </p>
 
-      <div className="text-xl font-light text-center my-6">
-        I have reached the highest ranks and provide coaching in multiple games
-        including:
-        <div className="text-2xl font-bold mt-4">
-          <p>
-            Quake Champions{" "}
-            <span className="text-xl font-light">Top 10 duel and 2v2</span>
-          </p>
-          <p>
-            Quake Live{" "}
-            <span className="text-xl font-light">Rank 1 CA, rank 3 CTF</span>
-          </p>
-          <p>
-            Diabotical <span className="text-xl font-light">Rank 1</span>
-          </p>
-          <p>
-            League of Legends{" "}
-            <span className="text-xl font-light">Diamond 1</span>
-          </p>
-          <p>
-            StarCraft II <span className="text-xl font-light">Grandmaster</span>
-          </p>
-          <p>
-            Chess <span className="text-xl font-light">1900 elo</span>
-          </p>
-        </div>
+      {/* Games grid */}
+      <div className="mx-auto mt-8 grid max-w-3xl grid-cols-2 gap-4 md:grid-cols-3">
+        {GAMES.map((g) => (
+          <div
+            key={g.game}
+            className="bg-gradient-to-b from-white/10 backdrop-blur-md
+                       border border-white/20 shadow-lg rounded-xl p-4 text-center"
+          >
+            <h3 className="font-bold">{g.game}</h3>
+            <p className="mt-2 inline-block rounded-full bg-teal-400/15 px-3 py-0.5 text-sm font-medium text-teal-300">
+              {g.rank}
+            </p>
+          </div>
+        ))}
       </div>
 
-      <p className="text-xl font-light text-center my-6">
-        I provide single or multiple hour one on one sessions that include VOD
-        reviewing, live coaching, and providing a training regiment.
-      </p>
-
-      <p className="text-xl font-light text-center my-6">
-        Message me on Discord: <span className="text-xl font-bold">enesy</span>
+      {/* Contact */}
+      <p className="mt-10 text-center text-lg font-light">
+        Interested? Message me on Discord:{" "}
+        <span className="font-bold text-teal-400">enesy</span>
       </p>
     </div>
   );
