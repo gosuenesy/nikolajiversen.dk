@@ -28,7 +28,6 @@ export default function Coaching() {
     >
       <h1 className="text-3xl font-bold text-center mb-10">Coaching</h1>
 
-      {/* Pricing */}
       <div className="flex justify-center">
         <div
           className="w-full max-w-md
@@ -53,7 +52,6 @@ export default function Coaching() {
         </div>
       </div>
 
-      {/* Intro */}
       <p className="mx-auto mt-10 max-w-2xl text-center text-lg font-light text-gray-300">
         I've competed professionally across multiple FPS titles with ~$6000 in
         tournament earnings (
@@ -69,7 +67,6 @@ export default function Coaching() {
         include VOD review, live coaching, and a tailored training plan.
       </p>
 
-      {/* Games grid */}
       <div className="mx-auto mt-8 grid max-w-3xl grid-cols-2 gap-4 md:grid-cols-3">
         {GAMES.map((g) => (
           <div

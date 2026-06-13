@@ -23,7 +23,6 @@ const SORTS = [
   { key: "curated", label: "Personal (curated)" },
 ];
 
-/** Minimal glass dropdown (instead of native select) */
 function GlassSelect({ value, onChange, options, className = "", label }) {
   const [open, setOpen] = useState(false);
   const ref = useRef(null);
@@ -92,7 +91,6 @@ export default function Reviews() {
   const [yearFilter, setYearFilter] = useState("all");
   const [sortKey, setSortKey] = useState("rating_desc");
 
-  // Merge + normalize
   const all = useMemo(() => {
     const withType = (arr, type) =>
       arr.map((r) => ({
@@ -108,14 +106,12 @@ export default function Reviews() {
     ];
   }, []);
 
-  // Years available per tab
   const yearsForTab = useMemo(() => {
     const from = all.filter((r) => r.type === activeTab).map((r) => r.year);
     const set = Array.from(new Set(from)).sort((a, b) => b - a);
     return set;
   }, [all, activeTab]);
 
-  // Filter by tab + year
   const filtered = useMemo(() => {
     let arr = all.filter((r) => r.type === activeTab);
     if (yearFilter !== "all") {
@@ -125,7 +121,6 @@ export default function Reviews() {
     return arr;
   }, [all, activeTab, yearFilter]);
 
-  // ---- Deterministic + curated sorting ----
   const toNum = (v, fallback = 0) =>
     Number.isFinite(Number(v)) ? Number(v) : fallback;
   const cmpStrAsc = (a, b) =>
@@ -166,7 +161,6 @@ export default function Reviews() {
     const byIdAsc = (a, b) => cmpStrAsc(getId(a), getId(b));
     const byCuratedAsc = (a, b) => getCurated(a) - getCurated(b);
 
-    // default tie-breakers for stability
     const TIE_BREAK = [byDateDesc, byTitleAsc, byIdAsc];
 
     switch (sortKey) {
@@ -195,14 +189,12 @@ export default function Reviews() {
     }
   }, [filtered, sortKey]);
 
-  // Rank numbers based on the CURRENT view (filter + sort)
   const ranked = useMemo(() => {
     return sorted.map((item, idx) => ({ ...item, __rank: idx + 1 }));
   }, [sorted]);
 
   return (
     <section className="pt-28 pb-16 px-4 md:px-8 max-w-6xl mx-auto">
-      {/* Header */}
       <div
         data-aos="fade-up"
         data-aos-duration="500"
@@ -211,7 +203,6 @@ export default function Reviews() {
         <h1 className="text-2xl md:text-3xl font-bold">Reviews</h1>
       </div>
 
-      {/* Tabs */}
       <div className="mb-4 flex gap-2">
         {TABS.map((t) => {
           const active = t.key === activeTab;
@@ -236,7 +227,6 @@ export default function Reviews() {
         })}
       </div>
 
-      {/* Filters */}
       <div className="mb-6 flex flex-col md:flex-row gap-3 md:items-center">
         <GlassSelect
           label="Year"
@@ -255,7 +245,6 @@ export default function Reviews() {
         />
       </div>
 
-      {/* Empty */}
       {ranked.length === 0 && (
         <div className="rounded-xl border border-white/20 bg-white/5 backdrop-blur-md p-8 text-center text-white/80">
           No {activeTab} reviews
@@ -263,7 +252,6 @@ export default function Reviews() {
         </div>
       )}
 
-      {/* Grid */}
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         {ranked.map((r) => (
           <ReviewCard key={r.id} review={r} rank={r.__rank} />

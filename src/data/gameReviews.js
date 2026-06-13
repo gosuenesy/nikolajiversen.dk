@@ -206,8 +206,6 @@ Short, sharp, unforgettable.`,
     body: `A worthy sequel with incredible polish. Cinematic campaigns, refined macro/micro, and a competitive ladder
 that became a global spectacle. Deep mechanics, crisp feel—brutal and beautiful.`,
   },
-
-  // --- 4.9 / 4.8s ---
   {
     id: "warcraft-3",
     slug: "warcraft-3-reign-of-chaos",

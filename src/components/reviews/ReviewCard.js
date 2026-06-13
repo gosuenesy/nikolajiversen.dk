@@ -24,14 +24,12 @@ export default function ReviewCard({ review, rank }) {
       className="relative w-full h-full bg-gradient-to-b from-white/10 backdrop-blur-md 
                  border border-white/20 shadow-lg rounded-xl p-4"
     >
-      {/* Rank badge */}
       {typeof rank === "number" && (
         <div className="absolute -top-2 -left-2 rounded-xl border border-white/20 bg-teal-400/10 px-2 py-1">
           <span className="text-xs font-semibold text-teal-300">#{rank}</span>
         </div>
       )}
 
-      {/* Top row */}
       <div className="flex items-start justify-between gap-4">
         <div className="flex items-start gap-4">
           {image && (
@@ -66,7 +64,6 @@ export default function ReviewCard({ review, rank }) {
         </div>
       </div>
 
-      {/* Tags */}
       {tags.length > 0 && (
         <div className="mt-2 flex flex-wrap gap-2">
           {tags.map((t, i) => (
@@ -80,12 +77,10 @@ export default function ReviewCard({ review, rank }) {
         </div>
       )}
 
-      {/* Body */}
       <p className="mt-3 text-white/90 leading-relaxed whitespace-pre-wrap">
         {body}
       </p>
 
-      {/* Best tracks */}
       {bestTracks && bestTracks.length > 0 && (
         <div className="mt-3">
           <p className="text-xs uppercase tracking-wide text-white/60 mb-1">
