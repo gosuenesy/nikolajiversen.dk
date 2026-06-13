@@ -8,7 +8,7 @@ import {
   faTwitch,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faChevronRight, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import tensThumb from "../assets/tens_thumb.png";
 import esportschoolThumb from "../assets/logo.png";
 
@@ -216,7 +216,16 @@ export default function Main() {
             </a>
           </div>
 
-          <ul className="flex mt-6 md:mt-8 gap-8 items-center">
+          <div className="mt-6 md:mt-8 flex flex-wrap items-center gap-6">
+            <a
+              href="#projects"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-teal-700 to-emerald-600 hover:from-teal-600 hover:to-emerald-500 text-white font-semibold rounded-full px-6 py-2.5 shadow-md border border-white/10 transition-all duration-300 hover:shadow-[0_0_20px_rgba(45,212,191,0.45)] hover:-translate-y-0.5"
+            >
+              See my work
+              <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4" />
+            </a>
+
+            <ul className="flex gap-8 items-center">
             <li>
               <a
                 href="https://github.com/gosuenesy"
@@ -289,7 +298,8 @@ export default function Main() {
                 />
               </a>
             </li>
-          </ul>
+            </ul>
+          </div>
         </div>
       </div>
     </>
