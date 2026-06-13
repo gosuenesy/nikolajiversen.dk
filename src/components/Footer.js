@@ -5,16 +5,18 @@ import {
   faTwitch,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const SOCIAL_LINKS = [
   { label: "GitHub", href: "https://github.com/gosuenesy", icon: faGithub },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/nikolaj-iversen-525279224/",
+    href: "https://www.linkedin.com/in/nikolaj-iversen-dev/",
     icon: faLinkedinIn,
   },
   { label: "Twitch", href: "https://twitch.tv/enesy_", icon: faTwitch },
   { label: "Twitter", href: "https://twitter.com/gosuenesy", icon: faTwitter },
+  { label: "Email", href: "mailto:nsi@enesy.dk", icon: faEnvelope },
 ];
 
 export default function Footer() {

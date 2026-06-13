@@ -8,7 +8,11 @@ import {
   faTwitch,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import { faChevronRight, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import {
+  faChevronRight,
+  faChevronDown,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
 import tensThumb from "../assets/tens_thumb.png";
 import esportschoolThumb from "../assets/logo.png";
 
@@ -26,6 +30,13 @@ export default function Main() {
   const socialLink =
     "inline-block text-gray-400 transition-all duration-300 " +
     "hover:text-teal-400 hover:drop-shadow-[0_0_6px_#2dd4bf] hover:-translate-y-0.5";
+
+  const socialIconStyle = {
+    background: "linear-gradient(to right, #134e4a, #0f766e)",
+    WebkitBackgroundClip: "text",
+    WebkitTextFillColor: "transparent",
+    fontSize: "2.5rem",
+  };
 
   return (
     <>
@@ -49,9 +60,9 @@ export default function Main() {
         </div>
 
         <div
-          className="md:w-3/6 
-             bg-gradient-to-b from-white/10 backdrop-blur-md 
-             border border-white/20 shadow-lg 
+          className="md:w-3/6
+             bg-gradient-to-b from-white/10 backdrop-blur-md
+             border border-white/20 shadow-lg
              rounded-xl p-6"
           data-aos="fade-right"
           data-aos-duration="1000"
@@ -81,7 +92,8 @@ export default function Main() {
                 className={linkStrong}
               >
                 ranked82-0
-              </a>{" "}
+              </a>
+              {/* {" "}
               and{" "}
               <a
                 href="https://38wins.io"
@@ -89,23 +101,9 @@ export default function Main() {
                 className={linkStrong}
               >
                 38wins
-              </a>
+              </a> */}
               .
             </p>
-
-            {/* <p className="text-md font-light text-gray-400 mt-4">
-              <span className={leadSpan}>Co-Founder of esportschool.gg</span> —
-              a competitive gaming education platform. Built with React,
-              JavaScript, Tailwind, and Supabase.{" "}
-              <a
-                href="https://www.esportschool.gg"
-                target="_blank"
-                className={linkStrong}
-              >
-                Visit esportschool.gg
-              </a>
-              .
-            </p> */}
 
             <p className="text-md font-light text-gray-400 mt-4">
               <span className={leadSpan}>Game developer</span> with years of
@@ -216,32 +214,16 @@ export default function Main() {
             </a>
           </div>
 
-          <div className="mt-6 md:mt-8 flex flex-wrap items-center gap-6">
-            <a
-              href="#projects"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-teal-700 to-emerald-600 hover:from-teal-600 hover:to-emerald-500 text-white font-semibold rounded-full px-6 py-2.5 shadow-md border border-white/10 transition-all duration-300 hover:shadow-[0_0_20px_rgba(45,212,191,0.45)] hover:-translate-y-0.5"
-            >
-              See my work
-              <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4" />
-            </a>
-
-            <ul className="flex gap-8 items-center">
+          <ul className="flex mt-6 md:mt-8 gap-8 items-center">
             <li>
               <a
                 href="https://github.com/gosuenesy"
                 rel="noreferrer"
                 target="_blank"
+                aria-label="GitHub"
                 className={socialLink}
               >
-                <FontAwesomeIcon
-                  icon={faGithub}
-                  style={{
-                    background: "linear-gradient(to right, #134e4a, #0f766e)",
-                    WebkitBackgroundClip: "text",
-                    WebkitTextFillColor: "transparent",
-                    fontSize: "2.5rem",
-                  }}
-                />
+                <FontAwesomeIcon icon={faGithub} style={socialIconStyle} />
               </a>
             </li>
             <li>
@@ -249,17 +231,10 @@ export default function Main() {
                 href="https://www.linkedin.com/in/nikolaj-iversen-dev/"
                 rel="noreferrer"
                 target="_blank"
+                aria-label="LinkedIn"
                 className={socialLink}
               >
-                <FontAwesomeIcon
-                  icon={faLinkedinIn}
-                  style={{
-                    background: "linear-gradient(to right, #134e4a, #0f766e)",
-                    WebkitBackgroundClip: "text",
-                    WebkitTextFillColor: "transparent",
-                    fontSize: "2.5rem",
-                  }}
-                />
+                <FontAwesomeIcon icon={faLinkedinIn} style={socialIconStyle} />
               </a>
             </li>
             <li>
@@ -267,17 +242,10 @@ export default function Main() {
                 href="https://twitch.tv/enesy_"
                 rel="noreferrer"
                 target="_blank"
+                aria-label="Twitch"
                 className={socialLink}
               >
-                <FontAwesomeIcon
-                  icon={faTwitch}
-                  style={{
-                    background: "linear-gradient(to right, #134e4a, #0f766e)",
-                    WebkitBackgroundClip: "text",
-                    WebkitTextFillColor: "transparent",
-                    fontSize: "2.5rem",
-                  }}
-                />
+                <FontAwesomeIcon icon={faTwitch} style={socialIconStyle} />
               </a>
             </li>
             <li>
@@ -285,22 +253,38 @@ export default function Main() {
                 href="https://twitter.com/gosuenesy"
                 rel="noreferrer"
                 target="_blank"
+                aria-label="Twitter"
                 className={socialLink}
               >
-                <FontAwesomeIcon
-                  icon={faTwitter}
-                  style={{
-                    background: "linear-gradient(to right, #134e4a, #0f766e)",
-                    WebkitBackgroundClip: "text",
-                    WebkitTextFillColor: "transparent",
-                    fontSize: "2.5rem",
-                  }}
-                />
+                <FontAwesomeIcon icon={faTwitter} style={socialIconStyle} />
               </a>
             </li>
-            </ul>
-          </div>
+            <li>
+              <a
+                href="mailto:nsi@enesy.dk"
+                aria-label="Email"
+                className={socialLink}
+              >
+                <FontAwesomeIcon icon={faEnvelope} style={socialIconStyle} />
+              </a>
+            </li>
+          </ul>
         </div>
+
+        {/* Scroll-down cue (desktop) */}
+        <a
+          href="#projects"
+          aria-label="See my work"
+          className="group absolute bottom-8 left-1/2 hidden -translate-x-1/2 flex-col items-center gap-2 text-gray-400 transition-colors duration-300 hover:text-teal-400 md:flex"
+        >
+          <span className="text-sm font-semibold uppercase tracking-wide">
+            See my work
+          </span>
+          <FontAwesomeIcon
+            icon={faChevronDown}
+            className="animate-bounce text-xl"
+          />
+        </a>
       </div>
     </>
   );
