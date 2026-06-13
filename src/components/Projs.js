@@ -6,6 +6,8 @@ import dota2statsapp from "../assets/projs/dota2statsapp.png";
 import itpkmemberapp from "../assets/projs/itpkmemberapp.png";
 import tens from "../assets/tens_thumb.png";
 import esportschoolThumb from "../assets/logo.png";
+import wins38 from "../assets/projs/38wins.png";
+import ranked820 from "../assets/projs/ranked82-0.png";
 
 export default function Projs() {
   return (
@@ -20,7 +22,21 @@ export default function Projs() {
           linkDesc={"Visit esportschool.gg"}
         />
         <ProjCard
-          name="Tens - Mobile Puzzle Game"
+          name="R82-0 — NBA Draft Game"
+          img={ranked820}
+          desc="NBA team draft browser game. Go for a perfect 82-0 season, climb the ranked leaderboard. Built with React, Tailwind, and Supabase."
+          link="https://ranked82-0.com"
+          linkDesc={"Play at ranked82-0.com"}
+        />
+        <ProjCard
+          name="38wins — Football Season Game"
+          img={wins38}
+          desc="Football browser game. draft an XI, simulate a season, go for 38-0, climb the ranked 1v1 ladder. Built with React, Tailwind, and Supabase"
+          link="https://38wins.io"
+          linkDesc={"Play at 38wins.io"}
+        />
+        <ProjCard
+          name="Tens — Mobile Puzzle Game"
           img={tens}
           desc="Solo developed with Game Maker Studio 2"
           link="https://play.google.com/store/apps/details?id=com.nsigames.nsigames.tens"

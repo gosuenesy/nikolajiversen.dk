@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useEffect } from "react";
 import { Routes, Route, useLocation, Navigate } from "react-router-dom";
 import AOS from "aos";
@@ -74,13 +73,12 @@ function HomeWrapper() {
 
 export default function App() {
   useEffect(() => {
-    document.title = "Nikolaj Skovgaard Iversen";
+    document.title = "Nikolaj Iversen";
     AOS.init({ duration: 500, once: true, offset: 100 });
   }, []);
 
   return (
     <div className="relative overflow-hidden">
-      {/* Background */}
       <div className="fixed inset-0 z-0">
         <div
           className="w-full h-full bg-cover bg-no-repeat bg-center opacity-60 brightness-50"
@@ -95,7 +93,6 @@ export default function App() {
         />
       </div>
 
-      {/* Foreground */}
       <div className="relative z-10 px-6 lg:px-20 xl:px-36">
         <Navbar />
         <ScrollAndAOS />

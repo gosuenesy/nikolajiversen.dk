@@ -17,7 +17,7 @@ export default function Main() {
 
   const linkStrong =
     "font-semibold text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-emerald-400 " +
-    "underline underline-offset-4 decoration-teal-400/40 hover:decoration-teal-200 " +
+    "decoration-teal-400/40 hover:decoration-teal-200 " +
     "hover:drop-shadow-[0_0_6px_#2dd4bf] transition";
 
   const leadSpan =
@@ -73,6 +73,22 @@ export default function Main() {
                 className={linkStrong}
               >
                 esportschool.gg
+              </a>
+              , and creator of browser games like{" "}
+              <a
+                href="https://ranked82-0.com"
+                target="_blank"
+                className={linkStrong}
+              >
+                ranked82-0
+              </a>{" "}
+              and{" "}
+              <a
+                href="https://38wins.io"
+                target="_blank"
+                className={linkStrong}
+              >
+                38wins
               </a>
               .
             </p>
@@ -221,7 +237,7 @@ export default function Main() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/nikolaj-iversen-525279224/"
+                href="https://www.linkedin.com/in/nikolaj-iversen-dev/"
                 rel="noreferrer"
                 target="_blank"
                 className={socialLink}
