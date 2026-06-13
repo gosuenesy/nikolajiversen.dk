@@ -36,7 +36,7 @@ export default function ProjCard({
             {tags.map((t) => (
               <span
                 key={t}
-                className="rounded-full bg-teal-400/15 px-2.5 py-0.5 text-xs font-medium text-teal-300"
+                className="rounded-full border border-teal-400/40 bg-teal-400/10 px-3 py-1 text-xs font-medium text-teal-200"
               >
                 {t}
               </span>
