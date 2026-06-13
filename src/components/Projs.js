@@ -21,7 +21,7 @@ export default function Projs() {
         <ProjCard
           name="R82-0 — NBA Draft Game"
           img={ranked820}
-          desc="NBA team draft browser game. Go for a perfect 82-0 season, climb the ranked leaderboard. Built with React, Tailwind, and Supabase."
+          desc="NBA team draft browser game. Go for a perfect 82-0 season, climb the ranked leaderboard. Built with React, Tailwind, and Supabase"
           link="https://ranked82-0.com"
           linkDesc={"Play at ranked82-0.com"}
         />
