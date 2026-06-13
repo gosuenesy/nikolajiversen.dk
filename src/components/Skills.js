@@ -1,6 +1,3 @@
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import { SkillCard } from "./SkillCard.js";
 
 import javascript from "../assets/skills/javascript.svg";
@@ -9,98 +6,35 @@ import reactIcon from "../assets/skills/react.svg";
 import vue from "../assets/skills/vue.svg";
 import csharp from "../assets/skills/csharp.svg";
 import dotnetcore from "../assets/skills/dotnetcore.svg";
+import nodejs from "../assets/skills/nodejs.svg";
+
+const SKILLS = [
+  { name: "JavaScript", img: javascript },
+  { name: "TypeScript", img: typescript },
+  { name: "React", img: reactIcon },
+  { name: "React Native", img: reactIcon },
+  { name: "Vue.js", img: vue },
+  { name: "Node.js", img: nodejs },
+  { name: "C#", img: csharp },
+  { name: ".NET", img: dotnetcore },
+];
 
 export default function Skills() {
-  const PrevArrow = ({ onClick }) => (
-    <div className="custom-prevArrow" onClick={onClick}>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-      >
-        <path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z" />
-      </svg>
-    </div>
-  );
-
-  const NextArrow = ({ onClick }) => (
-    <div className="custom-nextArrow" onClick={onClick}>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-      >
-        <path d="M7.33 24l-2.83-2.829 9.339-9.175-9.339-9.167 2.83-2.829 12.17 11.996z" />
-      </svg>
-    </div>
-  );
-
-  const settings = {
-    dots: true,
-    autoplay: true,
-    infinite: true,
-    centerMode: true,
-    centerPadding: "0px",
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    speed: 500,
-    arrows: true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          centerMode: true,
-          centerPadding: "0px",
-        },
-      },
-    ],
-    appendDots: (dots) => (
-      <div style={{ paddingTop: "1.5rem" }}>
-        <ul style={{ margin: 0 }}>{dots}</ul>
-      </div>
-    ),
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
-  };
-
   return (
     <div className="text-white container mx-auto px-4">
       <h1 className="text-3xl font-bold text-center mb-10">Skills</h1>
-      <div className="flex justify-center">
-        <div className="w-full max-w-6xl">
-          <Slider {...settings}>
-            <SkillCard
-              name="JavaScript"
-              experience="Professional"
-              img={javascript}
-            />
-            <SkillCard
-              name="TypeScript"
-              experience="Professional"
-              img={typescript}
-            />
-            <SkillCard name="React" experience="Professional" img={reactIcon} />
-            <SkillCard name="Vue.js" experience="Education" img={vue} />
-            <SkillCard
-              name="React Native"
-              experience="Professional"
-              img={reactIcon}
-            />
-            <SkillCard name="C#" experience="Education" img={csharp} />
-            <SkillCard name=".NET" experience="Education" img={dotnetcore} />
-          </Slider>
-        </div>
+      <div className="mx-auto grid max-w-4xl grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-4">
+        {SKILLS.map((s, i) => (
+          <div
+            key={s.name}
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-offset="100"
+            data-aos-delay={(i % 4) * 75}
+          >
+            <SkillCard name={s.name} img={s.img} />
+          </div>
+        ))}
       </div>
     </div>
   );
