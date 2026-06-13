@@ -7,10 +7,10 @@ import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 const SECTIONS = [
   { id: "home", label: "Profile" },
-  { id: "skills", label: "Skills" },
   { id: "projects", label: "Projects" },
-  { id: "livestream", label: "Livestream" },
+  { id: "skills", label: "Skills" },
   { id: "coaching", label: "Coaching" },
+  { id: "livestream", label: "Livestream" },
 ];
 
 export default function Navbar() {
@@ -31,7 +31,7 @@ export default function Navbar() {
           if (entry.isIntersecting) setActive(entry.target.id);
         });
       },
-      { rootMargin: "-80px 0px -70% 0px", threshold: 0 }
+      { rootMargin: "-80px 0px -70% 0px", threshold: 0 },
     );
     SECTIONS.forEach(({ id }) => {
       const el = document.getElementById(id);
