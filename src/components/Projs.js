@@ -1,7 +1,4 @@
 import ProjCard from "./ProjCard.js";
-
-import personalwebsite from "../assets/projs/site.png";
-import quakeStats from "../assets/projs/quakeStats.png";
 import dota2statsapp from "../assets/projs/dota2statsapp.png";
 import itpkmemberapp from "../assets/projs/itpkmemberapp.png";
 import tens from "../assets/tens_thumb.png";
@@ -53,18 +50,6 @@ export default function Projs() {
           img={itpkmemberapp}
           desc="Developed with React, MUI and Render as backend"
           github="https://github.com/gosuenesy/itpk-member-app"
-        />
-        <ProjCard
-          name="Personal Quake stats app"
-          img={quakeStats}
-          desc="Developed with React, MUI and supabase backend"
-          github="https://github.com/gosuenesy/quake-stats"
-        />
-        <ProjCard
-          name="Personal website"
-          img={personalwebsite}
-          desc="Developed with React and Tailwind CSS"
-          github="https://github.com/gosuenesy/nikolajiversen.dk"
         />
       </div>
     </div>

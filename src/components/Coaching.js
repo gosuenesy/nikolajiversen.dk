@@ -1,4 +1,4 @@
-import HrCurve from "./HrCurve";
+import Hr from "./Hr";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 
@@ -21,7 +21,7 @@ export default function Coaching() {
         >
           <h1 className="text-6xl font-bold text-center m-4">€35</h1>
           <p className="text-2xl font-light text-center m-4">per hour</p>
-          <HrCurve />
+          <Hr />
 
           {[
             "Mechanical Skills",

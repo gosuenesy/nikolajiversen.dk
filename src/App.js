@@ -10,7 +10,7 @@ import Projs from "./components/Projs";
 import Footer from "./components/Footer";
 import Twitch from "./components/Twitch";
 import Coaching from "./components/Coaching";
-import HrCurve from "./components/HrCurve";
+import Hr from "./components/Hr";
 import Reviews from "./components/Reviews";
 
 import bg from "./assets/bg.png";
@@ -49,22 +49,22 @@ function HomeWrapper() {
       <Main />
 
       <section id="skills" className="scroll-mt-32 py-20">
-        <HrCurve />
+        <Hr />
         <Skills />
       </section>
 
       <section id="projects" className="scroll-mt-32 py-20">
-        <HrCurve />
+        <Hr />
         <Projs />
       </section>
 
       <section id="livestream" className="scroll-mt-32 py-20">
-        <HrCurve />
+        <Hr />
         <Twitch />
       </section>
 
       <section id="coaching" className="scroll-mt-32 py-20">
-        <HrCurve />
+        <Hr />
         <Coaching />
       </section>
     </>
