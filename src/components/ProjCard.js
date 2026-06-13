@@ -1,25 +1,51 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-export default function ProjCard({ name, img, desc, github, link, linkDesc }) {
+export default function ProjCard({
+  name,
+  img,
+  desc,
+  github,
+  link,
+  linkDesc,
+  tags,
+}) {
   const href = link || github;
   const label = link ? linkDesc : github ? "Source code on GitHub" : null;
 
   const card = (
     <div
-      className="group w-full h-full
+      className="group flex h-full flex-col
          bg-gradient-to-b from-white/10 backdrop-blur-md
          border border-white/20 shadow-lg
-         rounded-xl py-4 px-4
+         rounded-xl p-4
          transition-all duration-300
          hover:shadow-[0_0_20px_rgba(45,212,191,0.45)] hover:-translate-y-0.5"
     >
-      <img src={img} className="h-56 mx-auto object-cover" alt={name} />
-      <div className="mt-2">
-        <h1 className="font-bold md:text-xl">{name}</h1>
-        <p className="font-light md:text-md">{desc}</p>
+      <img
+        src={img}
+        alt={name}
+        className="h-48 w-full rounded-lg object-cover"
+      />
+      <div className="mt-3 flex flex-1 flex-col">
+        <h3 className="font-bold md:text-xl">{name}</h3>
+        <p className="mt-1 font-light text-gray-300">{desc}</p>
+
+        {tags && tags.length > 0 && (
+          <div className="mt-3 flex flex-wrap gap-2">
+            {tags.map((t) => (
+              <span
+                key={t}
+                className="rounded-full bg-teal-400/15 px-2.5 py-0.5 text-xs font-medium text-teal-300"
+              >
+                {t}
+              </span>
+            ))}
+          </div>
+        )}
+
         {label && (
-          <span className="inline-flex items-center gap-2 font-light text-teal-400 transition duration-300 group-hover:drop-shadow-[0_0_6px_#2dd4bf]">
+          <span className="mt-auto pt-3 inline-flex items-center gap-2 font-light text-teal-400 transition duration-300 group-hover:drop-shadow-[0_0_6px_#2dd4bf]">
             {label}
             <FontAwesomeIcon
               icon={faArrowRight}
