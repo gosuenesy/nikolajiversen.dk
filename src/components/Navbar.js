@@ -48,8 +48,8 @@ export default function Navbar() {
 
           <li className="p-4">
             <a
-              href="#Projs"
-              onClick={(e) => handleSectionClick(e, "Projs")}
+              href="#projects"
+              onClick={(e) => handleSectionClick(e, "projects")}
               className="transition duration-300 hover:text-teal-400 hover:drop-shadow-[0_0_6px_#2dd4bf]"
             >
               Projects
