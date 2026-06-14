@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import logo from "../assets/atliens.jpg";
-import resume from "../assets/cvefsf.pdf";
+import resume from "../assets/CV2E.pdf";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
