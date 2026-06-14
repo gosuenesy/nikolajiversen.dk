@@ -82,7 +82,6 @@ export default function Coaching() {
         ))}
       </div>
 
-      {/* Contact */}
       <p className="mt-10 text-center text-lg font-light">
         Interested? Message me on Discord:{" "}
         <span className="font-bold text-teal-400">enesy</span>
