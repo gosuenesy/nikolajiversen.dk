@@ -168,7 +168,7 @@ A story of suspicion, trust, and community paranoia.`,
     body: `Studio Ghibli’s crowning achievement. 
 A magical, unforgettable coming-of-age journey.`,
   },
-  {
+  /*{
     id: "whiplash",
     slug: "whiplash",
     title: "Whiplash",
@@ -183,7 +183,7 @@ A magical, unforgettable coming-of-age journey.`,
     tags: ["animation", "drama"],
     body: `Explosive clash of teacher and student. 
 J.K. Simmons is terrifying, Miles Teller fully committed—an intense study of obsession.`,
-  },
+  }, */
 ];
 
 export default filmReviews;
