@@ -11,7 +11,8 @@ import Footer from "./components/Footer";
 import Twitch from "./components/Twitch";
 import Coaching from "./components/Coaching";
 import Hr from "./components/Hr";
-import Reviews from "./components/Reviews";
+// Reviews page temporarily disabled
+// import Reviews from "./components/Reviews";
 
 import bg from "./assets/bg.png";
 import "./App.css";
@@ -99,7 +100,8 @@ export default function App() {
 
         <Routes>
           <Route path="/" element={<HomeWrapper />} />
-          <Route path="/reviews" element={<Reviews />} />
+          {/* Reviews page temporarily disabled
+          <Route path="/reviews" element={<Reviews />} /> */}
           <Route path="/home" element={<Navigate to="/" replace />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import logo from "../assets/atliens.jpg";
 import resume from "../assets/CV2E.pdf";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+// Reviews page temporarily disabled - re-add `Link` here when re-enabling
+import { useLocation, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
@@ -77,11 +78,13 @@ export default function Navbar() {
               </a>
             </li>
           ))}
+          {/* Reviews page temporarily disabled
           <li className="p-4">
             <Link to="/reviews" className={linkClass("reviews")}>
               Reviews
             </Link>
           </li>
+          */}
         </ul>
 
         <div className="flex items-center gap-4">
@@ -131,6 +134,7 @@ export default function Navbar() {
               </a>
             </li>
           ))}
+          {/* Reviews page temporarily disabled
           <li>
             <Link
               to="/reviews"
@@ -140,6 +144,7 @@ export default function Navbar() {
               Reviews
             </Link>
           </li>
+          */}
           <li className="pt-2">
             <a
               href={resume}
