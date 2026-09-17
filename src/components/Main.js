@@ -42,7 +42,7 @@ export default function Main() {
     <>
       <div
         id="home"
-        className="scroll-mt-32 flex w-full h-screen flex-col md:flex-row gap-20 items-center justify-center text-white relative"
+        className="scroll-mt-32 flex w-full min-h-screen flex-col md:flex-row gap-20 items-center justify-center text-white relative pt-24 pb-8 md:pb-32"
       >
         <div className="md:w-3/6 flex justify-center md:justify-end md:p-4">
           <div
@@ -143,7 +143,7 @@ export default function Main() {
           </div>
 
           <div
-            className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6"
+            className="grid grid-cols-[repeat(auto-fit,minmax(min(100%,21rem),1fr))] gap-4 mt-6"
             data-aos="zoom-in"
             data-aos-duration="600"
             data-aos-offset="80"
@@ -166,10 +166,10 @@ export default function Main() {
                   <p className="text-xs uppercase tracking-wide text-gray-400">
                     Co-Founder
                   </p>
-                  <h3 className="font-semibold leading-tight truncate">
+                  <h3 className="font-semibold leading-tight">
                     esportschool.gg
                   </h3>
-                  <p className="text-sm text-gray-400 truncate">
+                  <p className="text-sm text-gray-400">
                     Esports education platform
                   </p>
                 </div>
@@ -199,10 +199,10 @@ export default function Main() {
                   <p className="text-xs uppercase tracking-wide text-gray-400">
                     Featured
                   </p>
-                  <h3 className="font-semibold leading-tight truncate">
+                  <h3 className="font-semibold leading-tight">
                     RENSE — Roguelite FPS
                   </h3>
-                  <p className="text-sm text-gray-400 truncate">
+                  <p className="text-sm text-gray-400">
                     Free demo on Steam
                   </p>
                 </div>
