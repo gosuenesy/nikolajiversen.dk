@@ -71,7 +71,7 @@ export default function Main() {
           <div className="flex flex-col w-full">
             <h1 className="text-3xl font-bold">Nikolaj Iversen</h1>
             <p className="text-xl font-bold text-gray-300">
-              Fullstack frontend developer · Game developer · Pro gamer · Coach
+              Fullstack frontend developer, game developer, pro gamer and coach
             </p>
 
             <p className="text-md font-light text-gray-400 mt-4">

@@ -12,14 +12,14 @@ const TABS = [
 ];
 
 const SORTS = [
-  { key: "rating_desc", label: "Rating (high → low)" },
-  { key: "rating_asc", label: "Rating (low → high)" },
-  { key: "date_desc", label: "Date (new → old)" },
-  { key: "date_asc", label: "Date (old → new)" },
-  { key: "title_asc", label: "Title (A → Z)" },
-  { key: "title_desc", label: "Title (Z → A)" },
-  { key: "creator_asc", label: "Creator (A → Z)" },
-  { key: "creator_desc", label: "Creator (Z → A)" },
+  { key: "rating_desc", label: "Rating (high to low)" },
+  { key: "rating_asc", label: "Rating (low to high)" },
+  { key: "date_desc", label: "Date (new to old)" },
+  { key: "date_asc", label: "Date (old to new)" },
+  { key: "title_asc", label: "Title (A to Z)" },
+  { key: "title_desc", label: "Title (Z to A)" },
+  { key: "creator_asc", label: "Creator (A to Z)" },
+  { key: "creator_desc", label: "Creator (Z to A)" },
   { key: "curated", label: "Personal (curated)" },
 ];
 

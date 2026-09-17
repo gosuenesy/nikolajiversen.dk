@@ -20,3 +20,5 @@ For the same reason, only use characters you can type on a normal keyboard:
 
 - Straight apostrophes and quotes (`'` and `"`), not curly ones (’ ‘ “ ”).
 - Three dots (`...`), not the single ellipsis character (…).
+- The word "to" instead of arrows (→), like `Rating (high to low)`.
+- Commas and "and" instead of middle dots (·) between items, like `Fullstack frontend developer, game developer, pro gamer and coach`.
