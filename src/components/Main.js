@@ -13,7 +13,7 @@ import {
   faChevronDown,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
-import tensThumb from "../assets/tens_thumb.png";
+import renseThumb from "../assets/rense_thumb.png";
 import esportschoolThumb from "../assets/logo.png";
 
 export default function Main() {
@@ -107,14 +107,15 @@ export default function Main() {
 
             <p className="text-md font-light text-gray-400 mt-4">
               <span className={leadSpan}>Game developer</span> with years of
-              experience in Unity and Game Maker Studio. Recently released a
-              game on Google Play Store called{" "}
+              experience in Godot, Unity and Game Maker Studio. Currently
+              making the roguelite FPS{" "}
               <a
-                href="https://play.google.com/store/apps/details?id=com.nsigames.nsigames.tens"
+                href="https://rensegame.com"
                 target="_blank"
+                rel="noreferrer"
                 className={linkStrong}
               >
-                Tens
+                RENSE
               </a>
               .
             </p>
@@ -181,16 +182,16 @@ export default function Main() {
             </a>
 
             <a
-              href="https://play.google.com/store/apps/details?id=com.nsigames.nsigames.tens"
+              href="https://store.steampowered.com/app/5172130/RENSE/?utm_source=nikolajiversen.dk&utm_campaign=portfolio&utm_content=hero"
               target="_blank"
               rel="noreferrer"
-              aria-label="Open Tens on Google Play"
+              aria-label="Play the RENSE demo on Steam"
               className="group block"
             >
               <div className="flex items-center gap-4 bg-gradient-to-b from-white/10 backdrop-blur-md border border-white/20 shadow-lg rounded-xl p-3 h-full transition-all duration-300 hover:shadow-[0_0_20px_rgba(45,212,191,0.45)] hover:-translate-y-0.5">
                 <img
-                  src={tensThumb}
-                  alt="Tens game thumbnail"
+                  src={renseThumb}
+                  alt="RENSE game icon"
                   className="w-16 h-16 rounded-lg object-cover"
                 />
 
@@ -199,10 +200,10 @@ export default function Main() {
                     Featured
                   </p>
                   <h3 className="font-semibold leading-tight truncate">
-                    Tens — Mobile Puzzle Game
+                    RENSE — Roguelite FPS
                   </h3>
                   <p className="text-sm text-gray-400 truncate">
-                    Tap to view on Google Play
+                    Free demo on Steam
                   </p>
                 </div>
 

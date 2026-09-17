@@ -5,12 +5,21 @@ import tens from "../assets/tens_thumb.png";
 import esportschoolThumb from "../assets/logo.png";
 import wins38 from "../assets/projs/38wins.png";
 import ranked820 from "../assets/projs/ranked82-0.png";
+import rense from "../assets/projs/rense.webp";
 
 export default function Projs() {
   return (
     <div className="text-white">
       <h1 className="text-3xl font-bold text-center mb-10">Projects</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 justify-center mt-4 gap-5">
+        <ProjCard
+          name="RENSE — Roguelite FPS"
+          img={rense}
+          desc="Build from level-up powers and chest items and fight through three maps of hostile drones. Coming to Steam on 10 November 2026."
+          tags={["Godot", "GDScript"]}
+          link="https://rensegame.com"
+          linkDesc={"Visit rensegame.com"}
+        />
         <ProjCard
           name="esportschool.gg"
           img={esportschoolThumb}
