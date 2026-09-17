@@ -13,7 +13,7 @@ const albumReviews = [
       "https://cdn2.albumoftheyear.org/200x0/album/5600-songs-in-the-key-of-life_145510.jpg",
     bestTracks: ["As", "I Wish", "Sir Duke"],
     tags: ["soul", "r&b", "classic"],
-    body: `Stevie Wonder’s magnum opus is an ambitious double LP blending soul, funk, pop, and jazz. 
+    body: `Stevie Wonder's magnum opus is an ambitious double LP blending soul, funk, pop, and jazz. 
 Every song brims with joy, political consciousness, and effortless musicality.`,
   },
   {
@@ -31,7 +31,7 @@ Every song brims with joy, political consciousness, and effortless musicality.`,
     bestTracks: ["What's Going On", "Inner City Blues", "Right On"],
     tags: ["soul", "political", "classic"],
     body: `An eternal protest record that is lush and beautiful, but uncompromising in its social critique. 
-Marvin Gaye’s voice floats over orchestral arrangements that still sound fresh.`,
+Marvin Gaye's voice floats over orchestral arrangements that still sound fresh.`,
   },
   {
     id: "abbey-road",
@@ -45,9 +45,9 @@ Marvin Gaye’s voice floats over orchestral arrangements that still sound fresh
     curated: 4,
     image:
       "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
-    bestTracks: ["I Want You (She’s So Heavy)", "Something", "Golden Slumbers"],
+    bestTracks: ["I Want You (She's So Heavy)", "Something", "Golden Slumbers"],
     tags: ["rock", "classic"],
-    body: `The Beatles’ final masterpiece, mixing polished pop, heavy rock, and the legendary medley. 
+    body: `The Beatles' final masterpiece, mixing polished pop, heavy rock, and the legendary medley. 
 Every member shines, and the production is pristine.`,
   },
   {
@@ -63,7 +63,7 @@ Every member shines, and the production is pristine.`,
     image: "https://cdn2.albumoftheyear.org/200x0/album/4338-grace_160108.jpg",
     bestTracks: ["Grace", "Lover, You Should've Come Over", "Hallelujah"],
     tags: ["alternative", "singer-songwriter"],
-    body: `Jeff Buckley’s only completed studio album. His angelic voice and haunting songwriting 
+    body: `Jeff Buckley's only completed studio album. His angelic voice and haunting songwriting 
 make this one of the most emotional records of the 90s.`,
   },
   {
@@ -80,7 +80,7 @@ make this one of the most emotional records of the 90s.`,
       "https://upload.wikimedia.org/wikipedia/en/a/a3/Kanyewest_collegedropout.jpg",
     bestTracks: ["Slow Jamz", "Spaceship", "Through the Wire"],
     tags: ["hip-hop", "classic"],
-    body: `Kanye’s debut redefined hip-hop with soul samples, vulnerable lyrics, and storytelling 
+    body: `Kanye's debut redefined hip-hop with soul samples, vulnerable lyrics, and storytelling 
 about ambition and struggle outside gangsta rap tropes.`,
   },
   {
@@ -96,7 +96,7 @@ about ambition and struggle outside gangsta rap tropes.`,
     image: "https://upload.wikimedia.org/wikipedia/en/2/27/IllmaticNas.jpg",
     bestTracks: ["Memory Lane", "The World Is Yours", "Represent"],
     tags: ["hip-hop", "east coast", "classic"],
-    body: `A cornerstone of hip-hop. Nas’s vivid street poetry and timeless production from DJ Premier, Pete Rock, and Q-Tip 
+    body: `A cornerstone of hip-hop. Nas's vivid street poetry and timeless production from DJ Premier, Pete Rock, and Q-Tip 
 created an album that feels both cinematic and razor-sharp.`,
   },
   {
@@ -113,12 +113,12 @@ created an album that feels both cinematic and razor-sharp.`,
       "https://upload.wikimedia.org/wikipedia/en/6/6b/Steviewonder_innervisions.jpg",
     bestTracks: [
       "Golden Lady",
-      "Don’t You Worry ’bout a Thing",
+      "Don't You Worry 'bout a Thing",
       "Living for the City",
     ],
     tags: ["soul", "r&b"],
     body: `Another political, funky, and melodic Stevie Wonder classic. 
-Tracks like “Living for the City” mix social realism with irresistible groove.`,
+Tracks like "Living for the City" mix social realism with irresistible groove.`,
   },
   {
     id: "nevermind",
@@ -134,7 +134,7 @@ Tracks like “Living for the City” mix social realism with irresistible groov
     bestTracks: ["Smells Like Teen Spirit", "Lithium", "Come as You Are"],
     tags: ["grunge", "rock"],
     body: `The album that exploded grunge into the mainstream. Raw energy, unforgettable riffs, 
-and Kurt Cobain’s tortured delivery.`,
+and Kurt Cobain's tortured delivery.`,
   },
   {
     id: "off-the-wall",
@@ -149,17 +149,17 @@ and Kurt Cobain’s tortured delivery.`,
     image: "https://upload.wikimedia.org/wikipedia/en/f/f6/Off_the_wall.jpg",
     bestTracks: [
       "Rock With You",
-      "Don’t Stop ’Til You Get Enough",
+      "Don't Stop 'Til You Get Enough",
       "Off the Wall",
     ],
     tags: ["pop", "funk", "disco"],
-    body: `Michael Jackson’s breakout solo record. Disco grooves + youthful vocals = pure joy. 
+    body: `Michael Jackson's breakout solo record. Disco grooves + youthful vocals = pure joy. 
 The first taste of his coming dominance.`,
   },
   {
     id: "when-the-pawn",
     slug: "when-the-pawn",
-    title: "When the Pawn…",
+    title: "When the Pawn...",
     creator: "Fiona Apple",
     type: "music",
     date: "1999-11-09",
@@ -170,7 +170,7 @@ The first taste of his coming dominance.`,
       "https://upload.wikimedia.org/wikipedia/en/2/24/Fiona_apple_when_the_pawn.jpg",
     bestTracks: ["I Know", "On The Bound", "Limp"],
     tags: ["alternative", "singer-songwriter", "art pop"],
-    body: `Fiona Apple’s bold sophomore album has dense, jazzy arrangements and fiercely personal lyrics. 
+    body: `Fiona Apple's bold sophomore album has dense, jazzy arrangements and fiercely personal lyrics. 
 Her vocals swing between tender and furious, making every track feel alive and unpredictable.`,
   },
   {
@@ -236,7 +236,7 @@ A milestone in 90s hip-hop.`,
     image: "https://upload.wikimedia.org/wikipedia/en/5/50/Mmfood.jpg",
     bestTracks: ["Rapp Snitch Knishes", "Vomitspit", "Guinnesses"],
     tags: ["hip-hop", "underground"],
-    body: `MF DOOM’s comic-book villain persona meets brilliant wordplay and offbeat production. 
+    body: `MF DOOM's comic-book villain persona meets brilliant wordplay and offbeat production. 
 Cult classic, endlessly quotable.`,
   },
   {
@@ -253,11 +253,11 @@ Cult classic, endlessly quotable.`,
       "https://upload.wikimedia.org/wikipedia/en/1/17/CurtisMayfieldCurtis.jpg",
     bestTracks: [
       "Move On Up",
-      "If There’s a Hell Below",
+      "If There's a Hell Below",
       "We the People Who Are Darker Than Blue",
     ],
     tags: ["soul", "funk"],
-    body: `Curtis Mayfield’s socially conscious and musically rich debut. 
+    body: `Curtis Mayfield's socially conscious and musically rich debut. 
 Blends lush arrangements with sharp political messages.`,
   },
   {
@@ -274,7 +274,7 @@ Blends lush arrangements with sharp political messages.`,
       "https://upload.wikimedia.org/wikipedia/en/1/14/MosDefBlackonBothSides.jpg",
     bestTracks: ["Ms. Fat Booty", "Mathematics", "Speed Law"],
     tags: ["hip-hop", "conscious"],
-    body: `Mos Def’s debut is socially sharp, sonically warm, and endlessly inventive. 
+    body: `Mos Def's debut is socially sharp, sonically warm, and endlessly inventive. 
 A cornerstone of conscious rap.`,
   },
   {
@@ -295,7 +295,7 @@ A cornerstone of conscious rap.`,
       "Can't Take My Eyes Off Of You",
     ],
     tags: ["hip-hop", "r&b", "neo-soul"],
-    body: `Lauryn Hill’s only solo album remains iconic. Personal, political, and musically adventurous. 
+    body: `Lauryn Hill's only solo album remains iconic. Personal, political, and musically adventurous. 
 An enduring masterpiece.`,
   },
   {
@@ -313,7 +313,7 @@ An enduring masterpiece.`,
     bestTracks: ["Changes", "Life on Mars?", "Queen Bitch"],
     tags: ["rock", "glam rock", "singer-songwriter"],
     body: `A turning point for Bowie, with artful songwriting, sharp lyrics, and melodies that feel both theatrical and intimate. 
-“Hunky Dory” set the stage for his fearless transformations to come.`,
+"Hunky Dory" set the stage for his fearless transformations to come.`,
   },
 ];
 

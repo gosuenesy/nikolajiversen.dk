@@ -10,6 +10,13 @@ Examples from this site:
 
 - `RENSE — Roguelite FPS` became the title `RENSE`, with "Roguelite FPS" moved into the description.
 - `Deep mechanics, crisp feel—brutal and beautiful.` became `Deep mechanics and a crisp feel. Brutal and beautiful.`
-- `Stevie Wonder’s magnum opus—an ambitious double LP` became `Stevie Wonder’s magnum opus is an ambitious double LP`
+- `Stevie Wonder's magnum opus—an ambitious double LP` became `Stevie Wonder's magnum opus is an ambitious double LP`
 
 Normal hyphens are fine, like `co-founder`, `late-80s` or `R82-0`.
+
+## No curly quotes or other characters you can't type
+
+For the same reason, only use characters you can type on a normal keyboard:
+
+- Straight apostrophes and quotes (`'` and `"`), not curly ones (’ ‘ “ ”).
+- Three dots (`...`), not the single ellipsis character (…).

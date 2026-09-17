@@ -31,7 +31,7 @@ Hardcore adds real stakes, especially on melee, and turns every dungeon into a p
     bestTracks: [],
     tags: ["platformer", "3d", "nintendo"],
     body: `The purest 3D platformer. Movement is expressive and intuitive; you can feel the momentum in every jump and dive.
-Genius sandbox levels invite curiosity and mastery with a skill ceiling that’s still being pushed by speedrunners.
+Genius sandbox levels invite curiosity and mastery with a skill ceiling that's still being pushed by speedrunners.
 Timeless soundtrack, timeless design.`,
   },
   {
@@ -66,8 +66,8 @@ Unit sound design and music are burned into memory, and competitive StarCraft es
     bestTracks: [],
     tags: ["action-rpg", "open-world", "soulslike"],
     body: `A vast, densely interesting world that rewards curiosity at every turn.
-FromSoftware’s combat and encounter design scale beautifully into open-world freedom.
-The Lands Between are haunting, empowering, and full of “I can’t believe that worked” moments.`,
+FromSoftware's combat and encounter design scale beautifully into open-world freedom.
+The Lands Between are haunting, empowering, and full of "I can't believe that worked" moments.`,
   },
   {
     id: "quake-3-arena",
@@ -152,7 +152,7 @@ Style, music, and character identity all landed perfectly. A high-water mark for
       "https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg",
     bestTracks: [],
     tags: ["platformer", "sandbox", "nintendo"],
-    body: `Relentless creativity. Cappy’s capture mechanic explodes the design space, making each kingdom its own toy box.
+    body: `Relentless creativity. Cappy's capture mechanic explodes the design space, making each kingdom its own toy box.
 Movement is joyful, secrets are everywhere, and the whole game radiates charm.`,
   },
   {
@@ -219,7 +219,7 @@ that became a global spectacle. Deep mechanics and a crisp feel. Brutal and beau
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2F0%2F0d%2FWarcraftIIIcover.jpg",
     bestTracks: [],
     tags: ["rts", "heroes", "custom-maps"],
-    body: `RTS with RPG DNA. Hero units, creeping, and itemization expanded the genre’s vocabulary.
+    body: `RTS with RPG DNA. Hero units, creeping, and itemization expanded the genre's vocabulary.
 Its world-building was top-tier, and the custom map scene (hello, Defense of the Ancients)
 changed multiplayer gaming forever.`,
   },
@@ -237,7 +237,7 @@ changed multiplayer gaming forever.`,
     bestTracks: [],
     tags: ["rts", "classic"],
     body: `Streamlined, addictive RTS fundamentals delivered with personality. Build, expand, smash.
-Set the stage for Blizzard’s future strategy dominance and countless LAN memories.`,
+Set the stage for Blizzard's future strategy dominance and countless LAN memories.`,
   },
   {
     id: "crash-bandicoot-2",
@@ -254,7 +254,7 @@ Set the stage for Blizzard’s future strategy dominance and countless LAN memor
     tags: ["platformer", "ps1", "classic"],
     body: `A focused, polished sequel with tight controls and varied stage gimmicks.
 Playful tone, great feedback, and just the right bite of challenge.
-One of PS1’s definitive platformers.`,
+One of PS1's definitive platformers.`,
   },
 ];
 

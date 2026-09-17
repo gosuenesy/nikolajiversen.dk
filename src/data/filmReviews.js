@@ -46,8 +46,8 @@ Visual and sonic perfection.`,
       "https://m.media-amazon.com/images/M/MV5BYTk2MDJkMTAtNTI4Ni00ODJiLWEwYjgtZDk4OGY3ZWZmMmQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     bestTracks: [],
     tags: ["drama", "epic"],
-    body: `Daniel Day-Lewis delivers one of cinema’s greatest performances. 
-Greed, oil, and obsession, set to Jonny Greenwood’s unnerving score.`,
+    body: `Daniel Day-Lewis delivers one of cinema's greatest performances. 
+Greed, oil, and obsession, set to Jonny Greenwood's unnerving score.`,
   },
   {
     id: "oldboy",
@@ -81,7 +81,7 @@ A revenge story unlike any other.`,
     bestTracks: [],
     tags: ["drama", "ensemble"],
     body: `A found family riding the highs of the 70s straight into the crash of the 80s. 
-Paul Thomas Anderson’s dazzling, funny, and heartbreaking ensemble breakthrough.`,
+Paul Thomas Anderson's dazzling, funny, and heartbreaking ensemble breakthrough.`,
   },
   /*{
     id: "city-of-god",
@@ -97,7 +97,7 @@ Paul Thomas Anderson’s dazzling, funny, and heartbreaking ensemble breakthroug
       "https://m.media-amazon.com/images/M/MV5BYjY4NGI5OTUtY2ZlZS00Zjk4LTk5N2MtN2JmYWVjNGNmMGRlXkEyXkFqcGc@._V1_.jpg",
     bestTracks: [],
     tags: ["crime", "drama"],
-    body: `A kinetic, raw portrait of life in Rio’s favelas. 
+    body: `A kinetic, raw portrait of life in Rio's favelas. 
 Both exhilarating and tragic.`,
   }, */
   {
@@ -114,7 +114,7 @@ Both exhilarating and tragic.`,
       "https://upload.wikimedia.org/wikipedia/en/c/c3/Alien_movie_poster.jpg",
     bestTracks: [],
     tags: ["sci-fi", "horror"],
-    body: `“In space no one can hear you scream.” 
+    body: `"In space no one can hear you scream." 
 The perfect mix of sci-fi atmosphere and horror tension.`,
   },
   {
@@ -132,7 +132,7 @@ The perfect mix of sci-fi atmosphere and horror tension.`,
     bestTracks: [],
     tags: ["sci-fi", "neo-noir"],
     body: `A visually stunning and surprisingly introspective sequel. 
-Roger Deakins’ cinematography is otherworldly.`,
+Roger Deakins' cinematography is otherworldly.`,
   },
   {
     id: "the-hunt",
@@ -165,7 +165,7 @@ A story of suspicion, trust, and community paranoia.`,
       "https://upload.wikimedia.org/wikipedia/en/d/db/Spirited_Away_Japanese_poster.png",
     bestTracks: [],
     tags: ["animation", "fantasy"],
-    body: `Studio Ghibli’s crowning achievement. 
+    body: `Studio Ghibli's crowning achievement. 
 A magical, unforgettable coming-of-age journey.`,
   },
   /*{

@@ -54,7 +54,7 @@ export default function Main() {
               src={profile}
               alt="profile"
               onLoad={() => setLoaded(true)}
-              className="rounded-full w-64 h-64 md:w-96 md:h-96 object-cover bg-dark-500"
+              className="rounded-full w-64 md:w-96 aspect-square object-cover bg-dark-500"
             />
           </div>
         </div>

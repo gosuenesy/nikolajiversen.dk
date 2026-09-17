@@ -106,7 +106,7 @@ export default function ReviewFormModal({ open, onClose, onCreate, defaultType =
               onChange={(e) => set("body", e.target.value)}
               rows={6}
               className="rounded-xl bg-black/30 border border-white/20 px-3 py-2"
-              placeholder="Your thoughts…"
+              placeholder="Your thoughts..."
               required
             />
           </div>
