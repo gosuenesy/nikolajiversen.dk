@@ -1,0 +1,10 @@
+# Send links like /reviews to index.html so React Router can show the right page.
+# Real files and folders (images, js, css, sitemap.xml) are still served as normal.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
