@@ -13,7 +13,7 @@ const albumReviews = [
       "https://cdn2.albumoftheyear.org/200x0/album/5600-songs-in-the-key-of-life_145510.jpg",
     bestTracks: ["As", "I Wish", "Sir Duke"],
     tags: ["soul", "r&b", "classic"],
-    body: `Stevie Wonder’s magnum opus—an ambitious double LP blending soul, funk, pop, and jazz. 
+    body: `Stevie Wonder’s magnum opus is an ambitious double LP blending soul, funk, pop, and jazz. 
 Every song brims with joy, political consciousness, and effortless musicality.`,
   },
   {
@@ -30,7 +30,7 @@ Every song brims with joy, political consciousness, and effortless musicality.`,
       "https://upload.wikimedia.org/wikipedia/en/8/84/MarvinGayeWhat%27sGoingOnalbumcover.jpg",
     bestTracks: ["What's Going On", "Inner City Blues", "Right On"],
     tags: ["soul", "political", "classic"],
-    body: `An eternal protest record—lush, beautiful, but uncompromising in its social critique. 
+    body: `An eternal protest record that is lush and beautiful, but uncompromising in its social critique. 
 Marvin Gaye’s voice floats over orchestral arrangements that still sound fresh.`,
   },
   {
@@ -80,7 +80,7 @@ make this one of the most emotional records of the 90s.`,
       "https://upload.wikimedia.org/wikipedia/en/a/a3/Kanyewest_collegedropout.jpg",
     bestTracks: ["Slow Jamz", "Spaceship", "Through the Wire"],
     tags: ["hip-hop", "classic"],
-    body: `Kanye’s debut redefined hip-hop—soul samples, vulnerable lyrics, and storytelling 
+    body: `Kanye’s debut redefined hip-hop with soul samples, vulnerable lyrics, and storytelling 
 about ambition and struggle outside gangsta rap tropes.`,
   },
   {
@@ -117,7 +117,7 @@ created an album that feels both cinematic and razor-sharp.`,
       "Living for the City",
     ],
     tags: ["soul", "r&b"],
-    body: `Another Stevie Wonder classic—political, funky, and melodic. 
+    body: `Another political, funky, and melodic Stevie Wonder classic. 
 Tracks like “Living for the City” mix social realism with irresistible groove.`,
   },
   {
@@ -170,7 +170,7 @@ The first taste of his coming dominance.`,
       "https://upload.wikimedia.org/wikipedia/en/2/24/Fiona_apple_when_the_pawn.jpg",
     bestTracks: ["I Know", "On The Bound", "Limp"],
     tags: ["alternative", "singer-songwriter", "art pop"],
-    body: `Fiona Apple’s bold sophomore album—dense, jazzy arrangements and fiercely personal lyrics. 
+    body: `Fiona Apple’s bold sophomore album has dense, jazzy arrangements and fiercely personal lyrics. 
 Her vocals swing between tender and furious, making every track feel alive and unpredictable.`,
   },
   {
@@ -204,7 +204,7 @@ An emotional, timeless journey through jazz and hip-hop fusion.`,
     bestTracks: ["Look Your Back!", "A Seagull & Clouds", "Sand Storm"],
     tags: ["jazz", "fusion", "jazz-funk"],
     body: `Beloved Japanese jazz-fusion from keyboardist 菊池ひみこ (Himiko Kikuchi). 
-Blazing horn charts, melodic keys, and slick late-80s rhythm section work—equal parts showy and silky. A hidden gem.`,
+Blazing horn charts, melodic keys, and slick late-80s rhythm section work that is equal parts showy and silky. A hidden gem.`,
   },
   {
     id: "moment-of-truth",
@@ -312,7 +312,7 @@ An enduring masterpiece.`,
       "https://upload.wikimedia.org/wikipedia/en/0/0b/David_Bowie_-_Hunky_Dory.jpg",
     bestTracks: ["Changes", "Life on Mars?", "Queen Bitch"],
     tags: ["rock", "glam rock", "singer-songwriter"],
-    body: `A turning point for Bowie—artful songwriting, sharp lyrics, and melodies that feel both theatrical and intimate. 
+    body: `A turning point for Bowie, with artful songwriting, sharp lyrics, and melodies that feel both theatrical and intimate. 
 “Hunky Dory” set the stage for his fearless transformations to come.`,
   },
 ];

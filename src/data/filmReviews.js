@@ -182,7 +182,7 @@ A magical, unforgettable coming-of-age journey.`,
     bestTracks: [],
     tags: ["animation", "drama"],
     body: `Explosive clash of teacher and student. 
-J.K. Simmons is terrifying, Miles Teller fully committed—an intense study of obsession.`,
+J.K. Simmons is terrifying and Miles Teller is fully committed. An intense study of obsession.`,
   }, */
 ];
 

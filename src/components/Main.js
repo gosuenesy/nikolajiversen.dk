@@ -166,7 +166,7 @@ export default function Main() {
                   <p className="text-xs uppercase tracking-wide text-gray-400">
                     Co-Founder
                   </p>
-                  <h3 className="font-semibold leading-tight">
+                  <h3 className="font-semibold leading-tight break-words">
                     esportschool.gg
                   </h3>
                   <p className="text-sm text-gray-400">
@@ -199,11 +199,11 @@ export default function Main() {
                   <p className="text-xs uppercase tracking-wide text-gray-400">
                     Featured
                   </p>
-                  <h3 className="font-semibold leading-tight">
-                    RENSE — Roguelite FPS
+                  <h3 className="font-semibold leading-tight break-words">
+                    RENSE
                   </h3>
                   <p className="text-sm text-gray-400">
-                    Free demo on Steam
+                    Roguelite FPS with a free demo on Steam
                   </p>
                 </div>
 
@@ -215,7 +215,7 @@ export default function Main() {
             </a>
           </div>
 
-          <ul className="flex mt-6 md:mt-8 gap-8 items-center">
+          <ul className="flex mt-6 md:mt-8 max-w-xs justify-between items-center">
             <li>
               <a
                 href="https://github.com/gosuenesy"

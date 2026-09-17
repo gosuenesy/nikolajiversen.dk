@@ -15,7 +15,7 @@ const gameReviews = [
     tags: ["arpg", "hack-and-slash", "isometric"],
     body: `10/10 gameplay, art style, music, and atmosphere. The click-to-move controls feel effortless and immediate,
 the loot loop is endlessly satisfying, and its gothic look + iconic sound effects define the genre.
-Hardcore adds real stakes—especially on melee—turning every dungeon into a pulse-raiser. Perfectly replayable.`,
+Hardcore adds real stakes, especially on melee, and turns every dungeon into a pulse-raiser. Perfectly replayable.`,
   },
   {
     id: "super-mario-64",
@@ -48,7 +48,7 @@ Timeless soundtrack, timeless design.`,
       "https://upload.wikimedia.org/wikipedia/en/9/93/StarCraft_box_art.jpg",
     bestTracks: [],
     tags: ["rts", "esports", "classic"],
-    body: `The RTS blueprint. Terran, Zerg, Protoss—distinct, elegant, and (almost miraculously) balanced.
+    body: `The RTS blueprint. Terran, Zerg, and Protoss are distinct, elegant, and (almost miraculously) balanced.
 Unit sound design and music are burned into memory, and competitive StarCraft essentially created modern esports.`,
   },
   {
@@ -204,7 +204,7 @@ Short, sharp, unforgettable.`,
     bestTracks: [],
     tags: ["rts", "esports", "competitive"],
     body: `A worthy sequel with incredible polish. Cinematic campaigns, refined macro/micro, and a competitive ladder
-that became a global spectacle. Deep mechanics, crisp feel—brutal and beautiful.`,
+that became a global spectacle. Deep mechanics and a crisp feel. Brutal and beautiful.`,
   },
   {
     id: "warcraft-3",
@@ -219,7 +219,7 @@ that became a global spectacle. Deep mechanics, crisp feel—brutal and beautifu
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2F0%2F0d%2FWarcraftIIIcover.jpg",
     bestTracks: [],
     tags: ["rts", "heroes", "custom-maps"],
-    body: `RTS with RPG DNA—hero units, creeping, itemization—expanded the genre’s vocabulary.
+    body: `RTS with RPG DNA. Hero units, creeping, and itemization expanded the genre’s vocabulary.
 Its world-building was top-tier, and the custom map scene (hello, Defense of the Ancients)
 changed multiplayer gaming forever.`,
   },
@@ -236,7 +236,7 @@ changed multiplayer gaming forever.`,
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2F0%2F03%2FWarcraft_II_Tides_of_Darkness_boxart.jpg",
     bestTracks: [],
     tags: ["rts", "classic"],
-    body: `Streamlined, addictive RTS fundamentals—build, expand, smash—delivered with personality.
+    body: `Streamlined, addictive RTS fundamentals delivered with personality. Build, expand, smash.
 Set the stage for Blizzard’s future strategy dominance and countless LAN memories.`,
   },
   {
